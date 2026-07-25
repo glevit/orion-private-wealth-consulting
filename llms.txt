@@ -1,0 +1,19 @@
+# Orion Private Wealth Consulting
+
+> Orion Private Wealth Consulting connects discerning clients with the world's most exclusive properties, luxury vehicles, and timepieces — privately, efficiently, and with absolute discretion.
+
+Orion Private Wealth Consulting is a private consulting firm based in Florida, USA, serving clients globally. The firm operates as a trusted network providing access to luxury real estate (UAE, Engadina, Cote d'Azur), rare luxury automobiles, and exclusive timepieces.
+
+## Pages
+
+- [Home](https://orionprivatewealthconsulting.com/): Overview of Orion's mission and services.
+- [Who We Are](https://orionprivatewealthconsulting.com/who-we-are): Background on the firm and its philosophy.
+- [Services](https://orionprivatewealthconsulting.com/services): Details of the consulting services offered.
+- [Markets](https://orionprivatewealthconsulting.com/markets): Regions and markets served.
+- [How It Works](https://orionprivatewealthconsulting.com/how-it-works): The client engagement process.
+- [Partners](https://orionprivatewealthconsulting.com/partners): Trusted partners including Damac Properties.
+- [Contact](https://orionprivatewealthconsulting.com/contact): How to request a private consultation.
+
+## Notes
+
+This is a static business marketing website. All content referenced above is public marketing information; no private client data is exposed on these pages.
