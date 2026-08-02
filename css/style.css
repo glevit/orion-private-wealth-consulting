@@ -145,7 +145,7 @@ a:hover { color: var(--ivory); }
     overflow-y: auto;
     transition: max-height 0.25s ease;
   }
-  .nav-links.open { max-height: 80vh; }
+  .nav-links.open { max-height: 80vh; height: 80vh; z-index: 100; }
   .nav-links li { border-top: 1px solid var(--line); }
   .nav-links a { display: block; padding: 16px 28px; }
   .nav-toggle { display: block; }
