@@ -11,7 +11,7 @@ Orion Private Wealth Consulting is a private consulting firm based in Florida, U
 - [Services](https://orionprivatewealthconsulting.com/services): Details of the consulting services offered.
 - [Markets](https://orionprivatewealthconsulting.com/markets): Regions and markets served.
 - [How It Works](https://orionprivatewealthconsulting.com/how-it-works): The client engagement process.
-- [Partners](https://orionprivatewealthconsulting.com/partners): Trusted partners including Damac Properties.
+- [Partners](https://orionprivatewealthconsulting.com/partners): Overview of Orion's private partner network.
 - [Contact](https://orionprivatewealthconsulting.com/contact): How to request a private consultation.
 
 ## Notes
