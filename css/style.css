@@ -141,10 +141,10 @@ a:hover { color: var(--ivory); }
     gap: 0;
     border-bottom: 1px solid var(--line);
     max-height: 0;
-    overflow: hidden;
+    overflow-y: auto;
     transition: max-height 0.25s ease;
   }
-  .nav-links.open { max-height: 400px; }
+  .nav-links.open { max-height: 80vh; }
   .nav-links li { border-top: 1px solid var(--line); }
   .nav-links a { display: block; padding: 16px 28px; }
   .nav-toggle { display: block; }
