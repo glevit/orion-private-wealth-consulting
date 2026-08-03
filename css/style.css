@@ -96,7 +96,7 @@ a:hover { color: var(--ivory); }
 
 .nav-links {
   display: flex;
-  gap: 30px;
+  gap: 16px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -104,11 +104,12 @@ a:hover { color: var(--ivory); }
 
 .nav-links a {
   color: var(--ivory);
-  font-size: 0.82rem;
-  letter-spacing: 0.12em;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   font-weight: 500;
   opacity: 0.75;
+  white-space: nowrap;
   transition: opacity 0.2s, color 0.2s;
 }
 
