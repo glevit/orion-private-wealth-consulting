@@ -12,6 +12,8 @@ Orion Private Wealth Consulting is a private consulting firm based in Florida, U
 - [Markets](https://orionprivatewealthconsulting.com/markets): Regions and markets served.
 - [How It Works](https://orionprivatewealthconsulting.com/how-it-works): The client engagement process.
 - [Partners](https://orionprivatewealthconsulting.com/partners): Overview of Orion's private partner network.
+- [FAQ](https://orionprivatewealthconsulting.com/faq): Answers to frequently asked questions about Orion's services.
+- [Insights](https://orionprivatewealthconsulting.com/blog): Articles and insights from Orion.
 - [Contact](https://orionprivatewealthconsulting.com/contact): How to request a private consultation.
 
 ## Notes
