@@ -1,57 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://orionprivatewealthconsulting.com/</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://orionprivatewealthconsulting.com/who-we-are</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://orionprivatewealthconsulting.com/services</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://orionprivatewealthconsulting.com/markets</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://orionprivatewealthconsulting.com/how-it-works</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://orionprivatewealthconsulting.com/partners</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://orionprivatewealthconsulting.com/contact</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://orionprivatewealthconsulting.com/privacy</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>https://orionprivatewealthconsulting.com/terms</loc>
-    <lastmod>2026-07-25</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
-  </url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/</loc>
+<lastmod>2026-07-25</lastmod>
+<changefreq>monthly</changefreq>
+<priority>1.0</priority>
+</url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/who-we-are</loc>
+<lastmod>2026-07-25</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/services</loc>
+<lastmod>2026-07-25</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/markets</loc>
+<lastmod>2026-07-25</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/how-it-works</loc>
+<lastmod>2026-07-25</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/partners</loc>
+<lastmod>2026-07-25</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/faq</loc>
+<lastmod>2026-08-04</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/blog</loc>
+<lastmod>2026-08-04</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/blog-dubai-real-estate-guide</loc>
+<lastmod>2026-08-04</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/blog-collector-automobiles-guide</loc>
+<lastmod>2026-08-04</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/blog-luxury-timepieces-guide</loc>
+<lastmod>2026-08-04</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/blog-switzerland-riviera-tax</loc>
+<lastmod>2026-07-31</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/blog-dubai-off-plan</loc>
+<lastmod>2026-07-31</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/blog-success-fee-model</loc>
+<lastmod>2026-07-31</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/blog-timepieces-asset-class</loc>
+<lastmod>2026-07-31</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.6</priority>
+</url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/contact</loc>
+<lastmod>2026-07-25</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/privacy</loc>
+<lastmod>2026-07-25</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/terms</loc>
+<lastmod>2026-07-25</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.3</priority>
+</url>
 </urlset>
