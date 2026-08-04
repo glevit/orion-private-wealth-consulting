@@ -393,3 +393,65 @@ textarea { min-height: 120px; resize: vertical; }
   /* Fix cropped vertical (portrait) gallery photos in Dubai and Cote d'Azur sections */
 .gallery-photo.portrait{object-fit:contain;background:var(--bg-alt);}
 .gallery-photo.portrait.crop-plate{clip-path:inset(0 0 8% 0);}
+
+/* ===== Language Switcher ===== */
+.lang-item { position: relative; margin-left: 4px; }
+.lang-switch { position: relative; }
+.lang-current {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: none;
+  border: 1px solid var(--line);
+  color: var(--ivory);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: inherit;
+  white-space: nowrap;
+}
+.lang-current:hover { color: var(--gold); border-color: var(--gold); }
+.lang-current .lang-flag { font-size: 0.95rem; line-height: 1; }
+.lang-current .lang-caret { font-size: 0.6rem; opacity: 0.7; margin-left: 1px; }
+.lang-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: var(--bg-alt);
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  min-width: 190px;
+  list-style: none;
+  margin: 0;
+  padding: 6px 0;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  z-index: 200;
+}
+.lang-dropdown.open { display: block; }
+.lang-dropdown li { border-top: none !important; }
+.lang-dropdown a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  opacity: 0.85;
+  color: var(--ivory);
+}
+.lang-dropdown a:hover, .lang-dropdown a.lang-active { opacity: 1; color: var(--gold); background: rgba(201,162,75,0.08); }
+.lang-dropdown .lang-flag { font-size: 1rem; }
+
+@media (max-width: 780px) {
+  .lang-item { order: 99; width: 100%; }
+  .lang-switch { width: 100%; }
+  .lang-current { width: 100%; justify-content: space-between; border: none; padding: 16px 28px; }
+  .lang-dropdown { position: static; width: 100%; box-shadow: none; border: none; border-top: 1px solid var(--line); border-radius: 0; }
+  .lang-dropdown a { padding: 14px 40px; }
+}
