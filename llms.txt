@@ -12,9 +12,19 @@ Orion Private Wealth Consulting is a private consulting firm based in Florida, U
 - [Markets](https://orionprivatewealthconsulting.com/markets): Regions and markets served.
 - [How It Works](https://orionprivatewealthconsulting.com/how-it-works): The client engagement process.
 - [Partners](https://orionprivatewealthconsulting.com/partners): Overview of Orion's private partner network.
-- [FAQ](https://orionprivatewealthconsulting.com/faq): Answers to frequently asked questions about Orion's services.
+- [FAQ](https://orionprivatewealthconsulting.com/faq): Answers to frequently asked questions about Orion's services, including dedicated clusters on luxury real estate in Dubai (#real-estate), collector automobiles (#automobiles), and luxury timepieces (#watches).
 - [Insights](https://orionprivatewealthconsulting.com/blog): Articles and insights from Orion.
 - [Contact](https://orionprivatewealthconsulting.com/contact): How to request a private consultation.
+
+## Blog Posts
+
+- [Buying Luxury Real Estate in Dubai: A Guide for International Investors](https://orionprivatewealthconsulting.com/blog-dubai-real-estate-guide): Freehold areas, the Golden Visa, real costs beyond the listed price, and remote due diligence for international property buyers.
+- [Acquiring a Collector Automobile: The Private Path to Authenticity and Discretion](https://orionprivatewealthconsulting.com/blog-collector-automobiles-guide): Provenance verification, auction versus private sale, importing across borders, and bespoke manufacturer access.
+- [Luxury Timepieces: A Guide to Acquisition and Discreet Sale of a Collection](https://orionprivatewealthconsulting.com/blog-luxury-timepieces-guide): Authenticating a rare or vintage watch, boutique waitlists, and how to sell a collection with discretion.
+- [Switzerland vs. the French Riviera: A Tax Comparison for Second-Home Buyers](https://orionprivatewealthconsulting.com/blog-switzerland-riviera-tax): A tax comparison between Engadina and the Cote d'Azur for second-home buyers.
+- [Buying Off-Plan in Dubai: What International Buyers Need to Know](https://orionprivatewealthconsulting.com/blog-dubai-off-plan): Payment plans, escrow protection, and developer due diligence for off-plan purchases.
+- [Why Success-Fee Models Change the Incentive Structure in Luxury Brokerage](https://orionprivatewealthconsulting.com/blog-success-fee-model): How success-fee compensation aligns intermediary incentives with client interests.
+- [Timepieces as an Asset Class: What Collectors Should Know Before Buying](https://orionprivatewealthconsulting.com/blog-timepieces-asset-class): Rarity, condition, provenance, and authentication for watch collectors.
 
 ## Notes
 
