@@ -26,6 +26,10 @@ Orion Private Wealth Consulting is a private consulting firm based in Florida, U
 - [Why Success-Fee Models Change the Incentive Structure in Luxury Brokerage](https://orionprivatewealthconsulting.com/blog-success-fee-model): How success-fee compensation aligns intermediary incentives with client interests.
 - [Timepieces as an Asset Class: What Collectors Should Know Before Buying](https://orionprivatewealthconsulting.com/blog-timepieces-asset-class): Rarity, condition, provenance, and authentication for watch collectors.
 
+## Languages
+
+This site is available in English (default), Russian (/ru/), Ukrainian (/uk/), and Arabic (/ar/, right-to-left). All pages listed above have full translations at the corresponding language-prefixed path, e.g. https://orionprivatewealthconsulting.com/ru/faq.html.
+
 ## Notes
 
 This is a static business marketing website. All content referenced above is public marketing information; no private client data is exposed on these pages.
