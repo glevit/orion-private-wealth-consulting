@@ -459,7 +459,23 @@ textarea { min-height: 120px; resize: vertical; }
 @media (max-width: 780px) {
   .lang-item { order: 99; width: 100%; }
   .lang-switch { width: 100%; }
-  .lang-current { width: 100%; justify-content: space-between; border: none; padding: 16px 28px; }
-  .lang-dropdown { position: static; width: 100%; box-shadow: none; border: none; border-top: 1px solid var(--line); border-radius: 0; }
+  .lang-switch::before {
+    content: "Choose Language";
+    display: block;
+    padding: 16px 28px 4px;
+    font-size: 0.68rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold);
+    opacity: 0.7;
+  }
+  html[lang="ru"] .lang-switch::before { content: "Выберите язык"; }
+  html[lang="uk"] .lang-switch::before { content: "Оберіть мову"; }
+  html[lang="ar"] .lang-switch::before { content: "اختر اللغة"; text-align: right; }
+  html[lang="zh-CN"] .lang-switch::before { content: "选择语言"; }
+  .lang-current { width: 100%; justify-content: space-between; border: none; padding: 16px 28px; pointer-events: none; }
+  .lang-current .lang-caret { display: none; }
+  .lang-dropdown { display: block; position: static; width: 100%; box-shadow: none; border: none; border-top: 1px solid var(--line); border-radius: 0; }
   .lang-dropdown a { padding: 14px 40px; }
+  .nav-links.open { padding-bottom: 140px; }
 }
