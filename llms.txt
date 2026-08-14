@@ -28,7 +28,7 @@ Orion Private Wealth Consulting is a private consulting firm based in Florida, U
 
 ## Languages
 
-This site is available in English (default), Russian (/ru/), Ukrainian (/uk/), Arabic (/ar/, right-to-left), Chinese (/zh/), German (/de/), and Hindi (/hi/). All pages listed above have full translations at the corresponding language-prefixed path, e.g. https://orionprivatewealthconsulting.com/ru/faq.html.
+This site is available in English (default), Russian (/ru/), Ukrainian (/uk/), Arabic (/ar/, right-to-left), Chinese (/zh/), German (/de/), Hindi (/hi/), and French (/fr/). All pages listed above have full translations at the corresponding language-prefixed path, e.g. https://orionprivatewealthconsulting.com/ru/faq.html or https://orionprivatewealthconsulting.com/fr/faq.html.
 
 ## Notes
 
