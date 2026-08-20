@@ -1,0 +1,11 @@
+# Redirect .html URLs to their clean canonical equivalents (301, permanent).
+# Consolidates link equity onto the URL declared in <link rel="canonical">
+# and in sitemap.xml, avoiding duplicate-content dilution.
+# "force = true" is required because a static .html file exists at each path
+# and would otherwise be served directly instead of hitting this redirect.
+
+[[redirects]]
+  from = "/*.html"
+  to = "/:splat"
+  status = 301
+  force = true
