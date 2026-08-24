@@ -9,3 +9,6 @@
   to = "/:splat"
   status = 301
   force = true
+[[edge_functions]]
+  path = "/*"
+  function = "geo-block"
