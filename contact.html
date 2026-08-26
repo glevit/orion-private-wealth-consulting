@@ -72,7 +72,7 @@
 
 <section style="padding-top:0;">
   <div class="container form-wrap">
-    <form name="orion-inquiry-en" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html">
+    <form name="orion-inquiry-en" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you.html" data-netlify-recaptcha="true" data-error-msg="There was a problem sending your message. Please try again, or reach us directly via WhatsApp.">
       <input type="hidden" name="form-name" value="orion-inquiry-en">
       <p class="hidden" style="display:none;">
         <label>Don&rsquo;t fill this out if you&rsquo;re human: <input name="bot-field"></label>
@@ -103,6 +103,9 @@
       <textarea id="message" name="message" required></textarea>
 
       <p class="privacy-note">All inquiries are treated with absolute discretion. Your information will never be shared with third parties.</p>
+
+      <div class="g-recaptcha-wrap" data-netlify-recaptcha="true"></div>
+
 
       <div class="submit-row">
         <button class="btn btn-solid" type="submit">Submit Private Inquiry</button>
@@ -154,5 +157,6 @@
     }
   })();
 </script>
+<script src="/js/contact-form.js" defer></script>
 </body>
 </html>

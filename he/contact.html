@@ -72,7 +72,7 @@
 
 <section style="padding-top:0;">
   <div class="container form-wrap">
-    <form name="orion-inquiry-he" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/he/thank-you.html">
+    <form name="orion-inquiry-he" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/he/thank-you.html" data-netlify-recaptcha="true" data-error-msg="אירעה בעיה בשליחת הודעתך. אנא נסה שוב או צור איתנו קשר ישירות דרך וואטסאפ.">
       <input type="hidden" name="form-name" value="orion-inquiry-he">
       <p class="hidden" style="display:none;">
         <label>אל תמלאו שדה זה אם אתם בני אדם: <input name="bot-field"></label>
@@ -103,6 +103,9 @@
       <textarea id="message" name="message" required></textarea>
 
       <p class="privacy-note">כל הפניות מטופלות בדיסקרטיות מוחלטת. המידע שלכם לעולם לא ישותף עם צדדים שלישיים.</p>
+
+      <div class="g-recaptcha-wrap" data-netlify-recaptcha="true"></div>
+
 
       <div class="submit-row">
         <button class="btn btn-solid" type="submit">שליחת פנייה פרטית</button>
@@ -154,5 +157,6 @@
     }
   })();
 </script>
+<script src="/js/contact-form.js" defer></script>
 </body>
 </html>

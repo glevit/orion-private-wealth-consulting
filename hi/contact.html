@@ -71,7 +71,7 @@
 
 <section style="padding-top:0;">
   <div class="container form-wrap">
-    <form name="orion-inquiry-hi" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/hi/thank-you.html">
+    <form name="orion-inquiry-hi" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/hi/thank-you.html" data-netlify-recaptcha="true" data-error-msg="आपका संदेश भेजने में समस्या हुई। कृपया पुनः प्रयास करें, या सीधे व्हाट्सएप के माध्यम से हमसे संपर्क करें।">
       <input type="hidden" name="form-name" value="orion-inquiry-hi">
       <p class="hidden" style="display:none;">
         <label>Don&rsquo;t fill this out if you&rsquo;re human: <input name="bot-field"></label>
@@ -102,6 +102,9 @@
       <textarea id="message" name="message" required></textarea>
 
       <p class="privacy-note">सभी पूछताछ को पूर्ण गोपनीयता के साथ संभाला जाता है। आपकी जानकारी कभी भी तीसरे पक्ष के साथ साझा नहीं की जाएगी।</p>
+
+      <div class="g-recaptcha-wrap" data-netlify-recaptcha="true"></div>
+
 
       <div class="submit-row">
         <button class="btn btn-solid" type="submit">निजी पूछताछ सबमिट करें</button>
@@ -153,5 +156,6 @@
     }
   })();
 </script>
+<script src="/js/contact-form.js" defer></script>
 </body>
 </html>

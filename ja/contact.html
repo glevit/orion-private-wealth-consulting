@@ -72,7 +72,7 @@
 
 <section style="padding-top:0;">
   <div class="container form-wrap">
-    <form name="orion-inquiry-ja" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/ja/thank-you.html">
+    <form name="orion-inquiry-ja" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/ja/thank-you.html" data-netlify-recaptcha="true" data-error-msg="メッセージの送信中に問題が発生しました。もう一度お試しいただくか、WhatsAppで直接お問い合わせください。">
       <input type="hidden" name="form-name" value="orion-inquiry-ja">
       <p class="hidden" style="display:none;">
         <label>人間の方は入力しないでください： <input name="bot-field"></label>
@@ -103,6 +103,9 @@
       <textarea id="message" name="message" required></textarea>
 
       <p class="privacy-note">お問い合わせはすべて、絶対的な守秘義務のもとで取り扱われます。お客様の情報が第三者と共有されることは決してありません。</p>
+
+      <div class="g-recaptcha-wrap" data-netlify-recaptcha="true"></div>
+
 
       <div class="submit-row">
         <button class="btn btn-solid" type="submit">プライベート相談を送信</button>
@@ -154,5 +157,6 @@
     }
   })();
 </script>
+<script src="/js/contact-form.js" defer></script>
 </body>
 </html>
