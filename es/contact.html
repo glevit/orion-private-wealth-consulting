@@ -72,7 +72,7 @@
 
 <section style="padding-top:0;">
   <div class="container form-wrap">
-    <form name="orion-inquiry-es" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/es/thank-you.html">
+    <form name="orion-inquiry-es" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/es/thank-you.html" data-netlify-recaptcha="true" data-error-msg="Hubo un problema al enviar su mensaje. Por favor, inténtelo de nuevo o contáctenos directamente por WhatsApp.">
       <input type="hidden" name="form-name" value="orion-inquiry-es">
       <p class="hidden" style="display:none;">
         <label>No complete esto si es humano: <input name="bot-field"></label>
@@ -103,6 +103,9 @@
       <textarea id="message" name="message" required></textarea>
 
       <p class="privacy-note">Todas las consultas se tratan con absoluta discreci&oacute;n. Su informaci&oacute;n nunca ser&aacute; compartida con terceros.</p>
+
+      <div class="g-recaptcha-wrap" data-netlify-recaptcha="true"></div>
+
 
       <div class="submit-row">
         <button class="btn btn-solid" type="submit">Enviar Consulta Privada</button>
@@ -154,5 +157,6 @@
     }
   })();
 </script>
+<script src="/js/contact-form.js" defer></script>
 </body>
 </html>
