@@ -1,0 +1,277 @@
+diff --git a/blog-collector-automobiles-guide.html b/blog-collector-automobiles-guide.html
+index c05f1bf..98dd969 100644
+--- a/blog-collector-automobiles-guide.html
++++ b/blog-collector-automobiles-guide.html
+@@ -42,6 +42,8 @@ gtag('config', 'G-S1Q6BFKL8L');
+ <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Orion Private Wealth Consulting LLC","url":"https://orionprivatewealthconsulting.com","logo":"https://orionprivatewealthconsulting.com/images/logo-lockup.png","areaServed":["United Arab Emirates","Switzerland","France","United States"],"sameAs":[]}</script>
+ <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Acquiring a Collector Automobile: The Private Path to Authenticity and Discretion", "description": "How to verify the provenance of a rare automobile, the difference between auction and private sale, the customs and tax dimensions of importing a vehicle, and when to work with a private intermediary.", "image": "https://orionprivatewealthconsulting.com/images/auto-01-huracan-sterrato.jpg", "author": {"@type": "Person", "name": "Giacomo Levita", "jobTitle": "Founder", "worksFor": {"@type": "Organization", "name": "Orion Private Wealth Consulting LLC"}}, "publisher": {"@type": "Organization", "name": "Orion Private Wealth Consulting LLC", "logo": {"@type": "ImageObject", "url": "https://orionprivatewealthconsulting.com/images/logo-lockup.png"}}, "datePublished": "2026-08-04", "dateModified": "2026-08-04", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://orionprivatewealthconsulting.com/blog-collector-automobiles-guide"}, "inLanguage": "en"}</script>
+ <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Acquiring a Collector Automobile: The Private Path to Authenticity and Discretion — Orion Private Wealth Consulting"><meta name="twitter:description" content="How to verify the provenance of a rare automobile, the difference between auction and private sale, the customs and tax dimensions of importing a vehicle, and when to work with a private intermediary."><meta name="twitter:image" content="https://orionprivatewealthconsulting.com/images/logo-card.png">
++
++<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://orionprivatewealthconsulting.com/"}, {"@type": "ListItem", "position": 2, "name": "Insights", "item": "https://orionprivatewealthconsulting.com/blog"}, {"@type": "ListItem", "position": 3, "name": "Acquiring a Collector Automobile: The Private Path to Authenticity and Discretion", "item": "https://orionprivatewealthconsulting.com/blog-collector-automobiles-guide"}]}</script>
+ </head>
+ <body>
+ <header class="site-header">
+@@ -93,6 +95,8 @@ gtag('config', 'G-S1Q6BFKL8L');
+ </div>
+ </section>
+ 
++<section class="section-alt" aria-label="Related Articles"><div class="container"><p style="color:var(--gold); font-size:0.85rem; text-transform:uppercase; letter-spacing:0.08em;">Related Articles</p><ul style="list-style:none; padding:0; margin-top:0.75em;"><li><a href="/blog-timepieces-asset-class">Timepieces as an Asset Class: What Collectors Should Know Before Buying</a></li><li><a href="/blog-dubai-real-estate-guide">Buying Luxury Real Estate in Dubai: A Guide for International Investors</a></li></ul></div></section>
++
+ <footer class="site-footer">
+ <div class="container">
+ <p>Orion Private Wealth Consulting LLC — Florida, USA</p>
+diff --git a/blog-dubai-off-plan.html b/blog-dubai-off-plan.html
+index 3ef4d93..775afb3 100644
+--- a/blog-dubai-off-plan.html
++++ b/blog-dubai-off-plan.html
+@@ -42,6 +42,8 @@
+ <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Orion Private Wealth Consulting LLC","url":"https://orionprivatewealthconsulting.com","logo":"https://orionprivatewealthconsulting.com/images/logo-lockup.png","areaServed":["United Arab Emirates","Switzerland","France","United States"],"sameAs":[]}</script>
+ <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Buying Off-Plan in Dubai: What International Buyers Need to Know", "description": "What international buyers need to know before purchasing off-plan real estate in Dubai.", "image": "https://orionprivatewealthconsulting.com/images/dubai-01-burj-al-arab.jpg", "author": {"@type": "Person", "name": "Giacomo Levita", "jobTitle": "Founder", "worksFor": {"@type": "Organization", "name": "Orion Private Wealth Consulting LLC"}}, "publisher": {"@type": "Organization", "name": "Orion Private Wealth Consulting LLC", "logo": {"@type": "ImageObject", "url": "https://orionprivatewealthconsulting.com/images/logo-lockup.png"}}, "datePublished": "2026-08-04", "dateModified": "2026-08-07", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://orionprivatewealthconsulting.com/blog-dubai-off-plan"}, "inLanguage": "en"}</script>
+ <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Buying Off-Plan in Dubai: What International Buyers Need to Know — Orion Private Wealth Consulting"><meta name="twitter:description" content="What international buyers need to know before purchasing off-plan real estate in Dubai."><meta name="twitter:image" content="https://orionprivatewealthconsulting.com/images/logo-card.png">
++
++<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://orionprivatewealthconsulting.com/"}, {"@type": "ListItem", "position": 2, "name": "Insights", "item": "https://orionprivatewealthconsulting.com/blog"}, {"@type": "ListItem", "position": 3, "name": "Buying Off-Plan in Dubai: What International Buyers Need to Know", "item": "https://orionprivatewealthconsulting.com/blog-dubai-off-plan"}]}</script>
+ </head>
+ <body>
+ <header class="site-header">
+@@ -100,6 +102,8 @@
+   </div>
+ </section>
+ 
++<section class="section-alt" aria-label="Related Articles"><div class="container"><p style="color:var(--gold); font-size:0.85rem; text-transform:uppercase; letter-spacing:0.08em;">Related Articles</p><ul style="list-style:none; padding:0; margin-top:0.75em;"><li><a href="/blog-dubai-real-estate-guide">Buying Luxury Real Estate in Dubai: A Guide for International Investors</a></li><li><a href="/blog-switzerland-riviera-tax">Switzerland vs. the French Riviera: A Tax Comparison for Second-Home Buyers</a></li></ul></div></section>
++
+ <footer class="site-footer">
+   <div class="container">
+     <p>Orion Private Wealth Consulting LLC — Florida, USA</p>
+diff --git a/blog-dubai-real-estate-guide.html b/blog-dubai-real-estate-guide.html
+index 8fd42f5..bc3b430 100644
+--- a/blog-dubai-real-estate-guide.html
++++ b/blog-dubai-real-estate-guide.html
+@@ -42,6 +42,8 @@ gtag('config', 'G-S1Q6BFKL8L');
+ <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Orion Private Wealth Consulting LLC","url":"https://orionprivatewealthconsulting.com","logo":"https://orionprivatewealthconsulting.com/images/logo-lockup.png","areaServed":["United Arab Emirates","Switzerland","France","United States"],"sameAs":[]}</script>
+ <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Buying Luxury Real Estate in Dubai: A Guide for International Investors", "description": "How the acquisition of a premium property in the Emirates works: freehold areas, the Golden Visa, taxation, remote due diligence, and the role of a private intermediary.", "image": "https://orionprivatewealthconsulting.com/images/dubai-02-burj-khalifa.jpg", "author": {"@type": "Person", "name": "Giacomo Levita", "jobTitle": "Founder", "worksFor": {"@type": "Organization", "name": "Orion Private Wealth Consulting LLC"}}, "publisher": {"@type": "Organization", "name": "Orion Private Wealth Consulting LLC", "logo": {"@type": "ImageObject", "url": "https://orionprivatewealthconsulting.com/images/logo-lockup.png"}}, "datePublished": "2026-08-04", "dateModified": "2026-08-04", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://orionprivatewealthconsulting.com/blog-dubai-real-estate-guide"}, "inLanguage": "en"}</script>
+ <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Buying Luxury Real Estate in Dubai: A Guide for International Investors — Orion Private Wealth Consulting"><meta name="twitter:description" content="How the acquisition of a premium property in the Emirates works: freehold areas, the Golden Visa, taxation, remote due diligence, and the role of a private intermediary."><meta name="twitter:image" content="https://orionprivatewealthconsulting.com/images/logo-card.png">
++
++<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://orionprivatewealthconsulting.com/"}, {"@type": "ListItem", "position": 2, "name": "Insights", "item": "https://orionprivatewealthconsulting.com/blog"}, {"@type": "ListItem", "position": 3, "name": "Buying Luxury Real Estate in Dubai: A Guide for International Investors", "item": "https://orionprivatewealthconsulting.com/blog-dubai-real-estate-guide"}]}</script>
+ </head>
+ <body>
+ <header class="site-header">
+@@ -93,6 +95,8 @@ gtag('config', 'G-S1Q6BFKL8L');
+ </div>
+ </section>
+ 
++<section class="section-alt" aria-label="Related Articles"><div class="container"><p style="color:var(--gold); font-size:0.85rem; text-transform:uppercase; letter-spacing:0.08em;">Related Articles</p><ul style="list-style:none; padding:0; margin-top:0.75em;"><li><a href="/blog-dubai-off-plan">Buying Off-Plan in Dubai: What International Buyers Need to Know</a></li><li><a href="/blog-success-fee-model">Why Success-Fee Models Change the Incentive Structure in Luxury Brokerage</a></li></ul></div></section>
++
+ <footer class="site-footer">
+ <div class="container">
+ <p>Orion Private Wealth Consulting LLC — Florida, USA</p>
+diff --git a/blog-luxury-timepieces-guide.html b/blog-luxury-timepieces-guide.html
+index 317e3b4..a484de7 100644
+--- a/blog-luxury-timepieces-guide.html
++++ b/blog-luxury-timepieces-guide.html
+@@ -42,6 +42,8 @@ gtag('config', 'G-S1Q6BFKL8L');
+ <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Orion Private Wealth Consulting LLC","url":"https://orionprivatewealthconsulting.com","logo":"https://orionprivatewealthconsulting.com/images/logo-lockup.png","areaServed":["United Arab Emirates","Switzerland","France","United States"],"sameAs":[]}</script>
+ <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Luxury Timepieces: A Guide to Acquisition and Discreet Sale of a Collection", "description": "How to authenticate a rare or vintage watch, what to realistically expect around boutique waitlists, and how to manage the purchase or sale of high-value pieces with discretion.", "image": "https://orionprivatewealthconsulting.com/images/logo-card.png", "author": {"@type": "Person", "name": "Giacomo Levita", "jobTitle": "Founder", "worksFor": {"@type": "Organization", "name": "Orion Private Wealth Consulting LLC"}}, "publisher": {"@type": "Organization", "name": "Orion Private Wealth Consulting LLC", "logo": {"@type": "ImageObject", "url": "https://orionprivatewealthconsulting.com/images/logo-lockup.png"}}, "datePublished": "2026-08-04", "dateModified": "2026-08-04", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://orionprivatewealthconsulting.com/blog-luxury-timepieces-guide"}, "inLanguage": "en"}</script>
+ <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Luxury Timepieces: A Guide to Acquisition and Discreet Sale of a Collection — Orion Private Wealth Consulting"><meta name="twitter:description" content="How to authenticate a rare or vintage watch, what to realistically expect around boutique waitlists, and how to manage the purchase or sale of high-value pieces with discretion."><meta name="twitter:image" content="https://orionprivatewealthconsulting.com/images/logo-card.png">
++
++<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://orionprivatewealthconsulting.com/"}, {"@type": "ListItem", "position": 2, "name": "Insights", "item": "https://orionprivatewealthconsulting.com/blog"}, {"@type": "ListItem", "position": 3, "name": "Luxury Timepieces: A Guide to Acquisition and Discreet Sale of a Collection", "item": "https://orionprivatewealthconsulting.com/blog-luxury-timepieces-guide"}]}</script>
+ </head>
+ <body>
+ <header class="site-header">
+@@ -91,6 +93,8 @@ gtag('config', 'G-S1Q6BFKL8L');
+ </div>
+ </section>
+ 
++<section class="section-alt" aria-label="Related Articles"><div class="container"><p style="color:var(--gold); font-size:0.85rem; text-transform:uppercase; letter-spacing:0.08em;">Related Articles</p><ul style="list-style:none; padding:0; margin-top:0.75em;"><li><a href="/blog-timepieces-asset-class">Timepieces as an Asset Class: What Collectors Should Know Before Buying</a></li><li><a href="/blog-success-fee-model">Why Success-Fee Models Change the Incentive Structure in Luxury Brokerage</a></li></ul></div></section>
++
+ <footer class="site-footer">
+ <div class="container">
+ <p>Orion Private Wealth Consulting LLC — Florida, USA</p>
+diff --git a/blog-success-fee-model.html b/blog-success-fee-model.html
+index e423158..b0ce959 100644
+--- a/blog-success-fee-model.html
++++ b/blog-success-fee-model.html
+@@ -42,6 +42,8 @@
+ <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Orion Private Wealth Consulting LLC","url":"https://orionprivatewealthconsulting.com","logo":"https://orionprivatewealthconsulting.com/images/logo-lockup.png","areaServed":["United Arab Emirates","Switzerland","France","United States"],"sameAs":[]}</script>
+ <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Why Success-Fee Models Change the Incentive Structure in Luxury Brokerage", "description": "How a pure success-fee model changes the incentive structure in luxury brokerage.", "image": "https://orionprivatewealthconsulting.com/images/logo-card.png", "author": {"@type": "Person", "name": "Giacomo Levita", "jobTitle": "Founder", "worksFor": {"@type": "Organization", "name": "Orion Private Wealth Consulting LLC"}}, "publisher": {"@type": "Organization", "name": "Orion Private Wealth Consulting LLC", "logo": {"@type": "ImageObject", "url": "https://orionprivatewealthconsulting.com/images/logo-lockup.png"}}, "datePublished": "2026-08-04", "dateModified": "2026-08-07", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://orionprivatewealthconsulting.com/blog-success-fee-model"}, "inLanguage": "en"}</script>
+ <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Why Success-Fee Models Change the Incentive Structure in Luxury Brokerage — Orion Private Wealth Consulting"><meta name="twitter:description" content="How a pure success-fee model changes the incentive structure in luxury brokerage."><meta name="twitter:image" content="https://orionprivatewealthconsulting.com/images/logo-card.png">
++
++<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://orionprivatewealthconsulting.com/"}, {"@type": "ListItem", "position": 2, "name": "Insights", "item": "https://orionprivatewealthconsulting.com/blog"}, {"@type": "ListItem", "position": 3, "name": "Why Success-Fee Models Change the Incentive Structure in Luxury Brokerage", "item": "https://orionprivatewealthconsulting.com/blog-success-fee-model"}]}</script>
+ </head>
+ <body>
+ <header class="site-header">
+@@ -94,6 +96,8 @@
+   </div>
+ </section>
+ 
++<section class="section-alt" aria-label="Related Articles"><div class="container"><p style="color:var(--gold); font-size:0.85rem; text-transform:uppercase; letter-spacing:0.08em;">Related Articles</p><ul style="list-style:none; padding:0; margin-top:0.75em;"><li><a href="/blog-dubai-real-estate-guide">Buying Luxury Real Estate in Dubai: A Guide for International Investors</a></li><li><a href="/blog-luxury-timepieces-guide">Luxury Timepieces: A Guide to Acquisition and Discreet Sale of a Collection</a></li></ul></div></section>
++
+ <footer class="site-footer">
+   <div class="container">
+     <p>Orion Private Wealth Consulting LLC — Florida, USA</p>
+diff --git a/blog-switzerland-riviera-tax.html b/blog-switzerland-riviera-tax.html
+index b129dab..2af5b68 100644
+--- a/blog-switzerland-riviera-tax.html
++++ b/blog-switzerland-riviera-tax.html
+@@ -42,6 +42,8 @@
+ <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Orion Private Wealth Consulting LLC","url":"https://orionprivatewealthconsulting.com","logo":"https://orionprivatewealthconsulting.com/images/logo-lockup.png","areaServed":["United Arab Emirates","Switzerland","France","United States"],"sameAs":[]}</script>
+ <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Switzerland vs. the French Riviera: A Tax Comparison for Second-Home Buyers", "description": "A tax comparison for second-home buyers choosing between Engadina, Switzerland and the French Riviera.", "image": "https://orionprivatewealthconsulting.com/images/engadina-01-village-view.jpg", "author": {"@type": "Person", "name": "Giacomo Levita", "jobTitle": "Founder", "worksFor": {"@type": "Organization", "name": "Orion Private Wealth Consulting LLC"}}, "publisher": {"@type": "Organization", "name": "Orion Private Wealth Consulting LLC", "logo": {"@type": "ImageObject", "url": "https://orionprivatewealthconsulting.com/images/logo-lockup.png"}}, "datePublished": "2026-08-04", "dateModified": "2026-08-07", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://orionprivatewealthconsulting.com/blog-switzerland-riviera-tax"}, "inLanguage": "en"}</script>
+ <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Switzerland vs. the French Riviera: A Tax Comparison for Second-Home Buyers — Orion Private Wealth Consulting"><meta name="twitter:description" content="A tax comparison for second-home buyers choosing between Engadina, Switzerland and the French Riviera."><meta name="twitter:image" content="https://orionprivatewealthconsulting.com/images/logo-card.png">
++
++<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://orionprivatewealthconsulting.com/"}, {"@type": "ListItem", "position": 2, "name": "Insights", "item": "https://orionprivatewealthconsulting.com/blog"}, {"@type": "ListItem", "position": 3, "name": "Switzerland vs. the French Riviera: A Tax Comparison for Second-Home Buyers", "item": "https://orionprivatewealthconsulting.com/blog-switzerland-riviera-tax"}]}</script>
+ </head>
+ <body>
+ <header class="site-header">
+@@ -95,6 +97,8 @@
+   </div>
+ </section>
+ 
++<section class="section-alt" aria-label="Related Articles"><div class="container"><p style="color:var(--gold); font-size:0.85rem; text-transform:uppercase; letter-spacing:0.08em;">Related Articles</p><ul style="list-style:none; padding:0; margin-top:0.75em;"><li><a href="/blog-dubai-off-plan">Buying Off-Plan in Dubai: What International Buyers Need to Know</a></li><li><a href="/blog-success-fee-model">Why Success-Fee Models Change the Incentive Structure in Luxury Brokerage</a></li></ul></div></section>
++
+ <footer class="site-footer">
+   <div class="container">
+     <p>Orion Private Wealth Consulting LLC — Florida, USA</p>
+diff --git a/blog-timepieces-asset-class.html b/blog-timepieces-asset-class.html
+index 37e75e0..4c67164 100644
+--- a/blog-timepieces-asset-class.html
++++ b/blog-timepieces-asset-class.html
+@@ -42,6 +42,8 @@
+ <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Orion Private Wealth Consulting LLC","url":"https://orionprivatewealthconsulting.com","logo":"https://orionprivatewealthconsulting.com/images/logo-lockup.png","areaServed":["United Arab Emirates","Switzerland","France","United States"],"sameAs":[]}</script>
+ <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Timepieces as an Asset Class: What Collectors Should Know Before Buying", "description": "What collectors should know about rarity, condition, provenance, and authentication before buying fine timepieces.", "image": "https://orionprivatewealthconsulting.com/images/logo-card.png", "author": {"@type": "Person", "name": "Giacomo Levita", "jobTitle": "Founder", "worksFor": {"@type": "Organization", "name": "Orion Private Wealth Consulting LLC"}}, "publisher": {"@type": "Organization", "name": "Orion Private Wealth Consulting LLC", "logo": {"@type": "ImageObject", "url": "https://orionprivatewealthconsulting.com/images/logo-lockup.png"}}, "datePublished": "2026-08-04", "dateModified": "2026-08-07", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://orionprivatewealthconsulting.com/blog-timepieces-asset-class"}, "inLanguage": "en"}</script>
+ <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Timepieces as an Asset Class: What Collectors Should Know Before Buying — Orion Private Wealth Consulting"><meta name="twitter:description" content="What collectors should know about rarity, condition, provenance, and authentication before buying fine timepieces."><meta name="twitter:image" content="https://orionprivatewealthconsulting.com/images/logo-card.png">
++
++<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://orionprivatewealthconsulting.com/"}, {"@type": "ListItem", "position": 2, "name": "Insights", "item": "https://orionprivatewealthconsulting.com/blog"}, {"@type": "ListItem", "position": 3, "name": "Timepieces as an Asset Class: What Collectors Should Know Before Buying", "item": "https://orionprivatewealthconsulting.com/blog-timepieces-asset-class"}]}</script>
+ </head>
+ <body>
+ <header class="site-header">
+@@ -98,6 +100,8 @@
+   </div>
+ </section>
+ 
++<section class="section-alt" aria-label="Related Articles"><div class="container"><p style="color:var(--gold); font-size:0.85rem; text-transform:uppercase; letter-spacing:0.08em;">Related Articles</p><ul style="list-style:none; padding:0; margin-top:0.75em;"><li><a href="/blog-luxury-timepieces-guide">Luxury Timepieces: A Guide to Acquisition and Discreet Sale of a Collection</a></li><li><a href="/blog-collector-automobiles-guide">Acquiring a Collector Automobile: The Private Path to Authenticity and Discretion</a></li></ul></div></section>
++
+ <footer class="site-footer">
+   <div class="container">
+     <p>Orion Private Wealth Consulting LLC — Florida, USA</p>
+diff --git a/blog.html b/blog.html
+index 1af173b..3dba634 100644
+--- a/blog.html
++++ b/blog.html
+@@ -11,8 +11,8 @@ gtag('config', 'G-S1Q6BFKL8L');
+ 
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-<title>Insights: Dubai, Switzerland & Riviera Luxury Markets</title>
+-<meta name="description" content="Perspectives on luxury real estate, automobiles, and timepieces across Dubai, Switzerland, and the French Riviera — from Orion Private Wealth Consulting.">
++<title>Insights: Luxury Real Estate, Autos & Watches | Orion</title>
++<meta name="description" content="Practical guides on luxury real estate, automobiles, and timepieces across Dubai, Switzerland, and the French Riviera — written by Orion's founder.">
+ <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+ <link rel="apple-touch-icon" sizes="180x180" href="/images/icon-180.png">
+ <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png">
+@@ -41,6 +41,8 @@ gtag('config', 'G-S1Q6BFKL8L');
+ <link rel="canonical" href="https://orionprivatewealthconsulting.com/blog">
+ <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Orion Private Wealth Consulting LLC","url":"https://orionprivatewealthconsulting.com","logo":"https://orionprivatewealthconsulting.com/images/logo-lockup.png","areaServed":["United Arab Emirates","Switzerland","France","United States"],"sameAs":[]}</script>
+ <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Insights — Orion Private Wealth Consulting"><meta name="twitter:description" content="Insights on luxury real estate, automobiles, and timepieces from Orion Private Wealth Consulting — Dubai, Switzerland, and the French Riviera."><meta name="twitter:image" content="https://orionprivatewealthconsulting.com/images/logo-card.png">
++
++<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://orionprivatewealthconsulting.com/"}, {"@type": "ListItem", "position": 2, "name": "Insights", "item": "https://orionprivatewealthconsulting.com/blog"}]}</script>
+ </head>
+ <body>
+ <header class="site-header">
+diff --git a/faq.html b/faq.html
+index 30e72ba..3f1909a 100644
+--- a/faq.html
++++ b/faq.html
+@@ -11,8 +11,8 @@ gtag('config', 'G-S1Q6BFKL8L');
+ 
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-<title>FAQ: Success-Fee Model & Confidentiality | Orion PWC</title>
+-<meta name="description" content="How Orion's success-fee model works, which markets we cover, and how client confidentiality is protected — answered directly.">
++<title>FAQ: How Orion's Success-Fee Model Works | Orion PWC</title>
++<meta name="description" content="Answered directly: how the success-fee model works, which markets Orion covers, what it costs (nothing, unless we deliver), and how confidentiality is protected.">
+ <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+ <link rel="apple-touch-icon" sizes="180x180" href="/images/icon-180.png">
+ <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png">
+@@ -41,6 +41,8 @@ gtag('config', 'G-S1Q6BFKL8L');
+ <link rel="canonical" href="https://orionprivatewealthconsulting.com/faq">
+ <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Orion Private Wealth Consulting LLC","url":"https://orionprivatewealthconsulting.com","logo":"https://orionprivatewealthconsulting.com/images/logo-lockup.png","areaServed":["United Arab Emirates","Switzerland","France","United States"],"sameAs":[]}</script>
+ <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="FAQ — Orion Private Wealth Consulting"><meta name="twitter:description" content="Frequently asked questions about Orion Private Wealth Consulting: success-fee model, markets covered, and confidentiality."><meta name="twitter:image" content="https://orionprivatewealthconsulting.com/images/logo-card.png">
++
++<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://orionprivatewealthconsulting.com/"}, {"@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://orionprivatewealthconsulting.com/faq"}]}</script>
+ </head>
+ <body>
+ <header class="site-header">
+diff --git a/markets.html b/markets.html
+index 0b22914..d7990ab 100644
+--- a/markets.html
++++ b/markets.html
+@@ -12,8 +12,8 @@
+ 
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-<title>Luxury Markets: Dubai, Engadina & Côte d'Azur | Orion</title>
+-<meta name="description" content="Three of the world's most sought-after luxury markets — Dubai & the UAE, Switzerland's Engadina, and the Côte d'Azur — introduced through Orion's private network.">
++<title>Luxury Markets Explained: Dubai, Engadina & Riviera | Orion</title>
++<meta name="description" content="What sets Dubai, Switzerland's Engadina, and the Côte d'Azur apart for luxury buyers — and how Orion's private network gives you direct, discreet access to each.">
+ <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+ <link rel="apple-touch-icon" sizes="180x180" href="/images/icon-180.png">
+ <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png">
+@@ -42,6 +42,9 @@
+ <link rel="canonical" href="https://orionprivatewealthconsulting.com/markets">
+ <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Orion Private Wealth Consulting LLC","url":"https://orionprivatewealthconsulting.com","logo":"https://orionprivatewealthconsulting.com/images/logo-lockup.png","areaServed":["United Arab Emirates","Switzerland","France","United States"],"sameAs":[]}</script>
+ <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Orion Private Wealth Consulting"><meta name="twitter:description" content="Three of the world's most desirable luxury markets: Dubai & UAE, Engadina Switzerland, and the Côte d'Azur, France."><meta name="twitter:image" content="https://orionprivatewealthconsulting.com/images/logo-card.png">
++
++<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://orionprivatewealthconsulting.com/"}, {"@type": "ListItem", "position": 2, "name": "Markets", "item": "https://orionprivatewealthconsulting.com/markets"}]}</script>
++<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "serviceType": "Luxury Market Access", "provider": {"@type": "Organization", "name": "Orion Private Wealth Consulting LLC"}, "areaServed": ["United Arab Emirates", "Switzerland", "France", "United States"], "description": "Private introduction to luxury markets in Dubai, Switzerland's Engadina, and the C\u00f4te d'Azur.", "url": "https://orionprivatewealthconsulting.com/markets"}</script>
+ </head>
+ <body>
+ <header class="site-header">
+diff --git a/partners.html b/partners.html
+index b7dd09d..772ea2e 100644
+--- a/partners.html
++++ b/partners.html
+@@ -12,8 +12,8 @@
+ 
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-<title>Our Partners — Dubai, Engadina & Riviera | Orion PWC</title>
+-<meta name="description" content="Orion partners exclusively with best-in-class developers and dealers across Dubai, Switzerland, and the French Riviera. Providers of exceptional assets are invited to apply.">
++<title>Become a Partner — Dubai, Engadina & Riviera | Orion PWC</title>
++<meta name="description" content="Apply to become an Orion partner. We work exclusively with best-in-class developers and dealers across Dubai, Switzerland, and the French Riviera on a success-fee basis.">
+ <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+ <link rel="apple-touch-icon" sizes="180x180" href="/images/icon-180.png">
+ <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png">
+@@ -42,6 +42,9 @@
+ <link rel="canonical" href="https://orionprivatewealthconsulting.com/partners">
+ <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Orion Private Wealth Consulting LLC","url":"https://orionprivatewealthconsulting.com","logo":"https://orionprivatewealthconsulting.com/images/logo-lockup.png","areaServed":["United Arab Emirates","Switzerland","France","United States"],"sameAs":[]}</script>
+ <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Orion Private Wealth Consulting"><meta name="twitter:description" content="Orion collaborates exclusively with best-in-class partners across luxury real estate, automobiles, and timepieces."><meta name="twitter:image" content="https://orionprivatewealthconsulting.com/images/logo-card.png">
++
++<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://orionprivatewealthconsulting.com/"}, {"@type": "ListItem", "position": 2, "name": "Partners", "item": "https://orionprivatewealthconsulting.com/partners"}]}</script>
++<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "serviceType": "Luxury Partner Network", "provider": {"@type": "Organization", "name": "Orion Private Wealth Consulting LLC"}, "areaServed": ["United Arab Emirates", "Switzerland", "France", "United States"], "description": "Partnership program for developers and dealers in luxury real estate, automobiles, and timepieces.", "url": "https://orionprivatewealthconsulting.com/partners"}</script>
+ </head>
+ <body>
+ <header class="site-header">
+diff --git a/services.html b/services.html
+index a48dfb3..14d58d8 100644
+--- a/services.html
++++ b/services.html
+@@ -12,8 +12,8 @@
+ 
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-<title>Luxury Real Estate, Auto & Watch Access | Orion PWC</title>
+-<meta name="description" content="Private, success-fee only access to luxury real estate, automobiles, timepieces, and bespoke consulting across Dubai, Engadina, and the Côte d'Azur. No cost unless we deliver.">
++<title>Success-Fee Access: Luxury Real Estate, Autos & Watches | Orion</title>
++<meta name="description" content="No retainer, no cost unless we deliver. Private access to luxury real estate, automobiles, timepieces, and bespoke consulting across Dubai, Engadina, and the Côte d'Azur.">
+ <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+ <link rel="apple-touch-icon" sizes="180x180" href="/images/icon-180.png">
+ <link rel="icon" type="image/png" sizes="192x192" href="/images/icon-192.png">
+@@ -42,6 +42,9 @@
+ <link rel="canonical" href="https://orionprivatewealthconsulting.com/services">
+ <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Orion Private Wealth Consulting LLC","url":"https://orionprivatewealthconsulting.com","logo":"https://orionprivatewealthconsulting.com/images/logo-lockup.png","areaServed":["United Arab Emirates","Switzerland","France","United States"],"sameAs":[]}</script>
+ <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Orion Private Wealth Consulting"><meta name="twitter:description" content="Orion offers a curated suite of private opportunity sourcing services across luxury real estate, automobiles, timepieces, and private consulting."><meta name="twitter:image" content="https://orionprivatewealthconsulting.com/images/logo-card.png">
++
++<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://orionprivatewealthconsulting.com/"}, {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://orionprivatewealthconsulting.com/services"}]}</script>
++<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Service", "serviceType": "Luxury Asset Sourcing & Introduction", "provider": {"@type": "Organization", "name": "Orion Private Wealth Consulting LLC"}, "areaServed": ["United Arab Emirates", "Switzerland", "France", "United States"], "description": "Success-fee only access to luxury real estate, automobiles, and timepieces.", "url": "https://orionprivatewealthconsulting.com/services"}</script>
+ </head>
+ <body>
+ <header class="site-header">
