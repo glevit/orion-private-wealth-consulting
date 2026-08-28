@@ -4680,4 +4680,20 @@
 <xhtml:link rel="alternate" hreflang="ja" href="https://orionprivatewealthconsulting.com/ja/terms"/>
 <xhtml:link rel="alternate" hreflang="x-default" href="https://orionprivatewealthconsulting.com/terms"/>
 </url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/partners-referral</loc>
+<lastmod>2026-08-28</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+<xhtml:link rel="alternate" hreflang="en" href="https://orionprivatewealthconsulting.com/partners-referral"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://orionprivatewealthconsulting.com/partners-referral"/>
+</url>
+<url>
+<loc>https://orionprivatewealthconsulting.com/partners-asset</loc>
+<lastmod>2026-08-28</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+<xhtml:link rel="alternate" hreflang="en" href="https://orionprivatewealthconsulting.com/partners-asset"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://orionprivatewealthconsulting.com/partners-asset"/>
+</url>
 </urlset>
