@@ -121,7 +121,9 @@ a:hover { color: var(--ivory); }
 @media (min-width: 781px) {
   .nav-links {
     flex-wrap: wrap;
-    row-gap: 10px;
+    justify-content: center;
+    row-gap: 8px;
+    gap: 6px;
   }
   .lang-item {
     flex-shrink: 0;
@@ -129,7 +131,9 @@ a:hover { color: var(--ivory); }
   .nav-links a {
     border: 1px solid #ffffff;
     border-radius: 30px;
-    padding: 6px 14px;
+    padding: 5px 11px;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
   }
   .nav-links a.active {
     background: var(--gold);
