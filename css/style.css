@@ -128,19 +128,19 @@ a:hover { color: var(--ivory); }
   .lang-item {
     flex-shrink: 0;
   }
-  .nav-links a {
+  .nav-links > li > a {
     border: 1px solid #ffffff;
     border-radius: 30px;
     padding: 5px 11px;
     font-size: 0.7rem;
     letter-spacing: 0.05em;
   }
-  .nav-links a.active {
+  .nav-links > li > a.active {
     background: var(--gold);
     border-color: var(--gold);
     color: var(--bg);
   }
-  .nav-links a:hover {
+  .nav-links > li > a:hover {
     background: #ffffff;
     border-color: #ffffff;
     color: var(--bg);
