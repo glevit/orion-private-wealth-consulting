@@ -53,6 +53,12 @@
   .partner-card h3 { margin:0 0 0.5em; }
   .partner-card p { color:rgba(242,236,217,0.75); margin-bottom:1.4em; }
 </style>
+<style>
+  :root { --op-check-color: #1f8a4c; --op-check-text: var(--ivory); }
+  .op-check-list { list-style: none; margin: 1.25rem 0 1.5rem; padding: 0; }
+  .op-check-list li { display: flex; align-items: flex-start; gap: 0.6rem; margin-bottom: 0.65rem; font-size: 0.95rem; line-height: 1.4; color: var(--op-check-text); }
+  .op-check-list li::before { content: "\2713"; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; width: 1.1rem; height: 1.1rem; border-radius: 50%; background: var(--op-check-color); color: #ffffff; font-size: 0.7rem; font-weight: 700; line-height: 1; margin-top: 0.15rem; }
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -91,13 +97,25 @@
         <span class="eyebrow">Kunden vorstellen</span>
         <h3>Vermittlungspartner</h3>
         <p>Privatbankiers, Anwälte, Steuer- und Golden-Visa-Berater: Wenn Sie jemanden kennen, der abseits des offenen Marktes eine Luxusimmobilie, ein Automobil oder eine Uhr sucht, stellen Sie ihn uns mit Diskretion vor. Um den Rest kümmern wir uns.</p>
-        <a class="btn" href="/de/partners-referral">Vermittlungspartner werden →</a>
+<ul class="op-check-list">
+  <li>Keine Kosten oder Provisionen Ihrerseits</li>
+  <li>Ihre Kundenbeziehung bleibt geschützt und diskret</li>
+  <li>Vergütung nur bei abgeschlossenen Geschäften</li>
+  <li>Keine Exklusivitätsverpflichtung erforderlich</li>
+</ul>
+<a class="btn" href="/de/partners-referral">Vermittlungspartner werden →</a>
       </div>
       <div class="partner-card">
         <span class="eyebrow">Objekte anbieten</span>
         <h3>Objektpartner</h3>
         <p>Immobilienentwickler, Automobilhändler und Händler seltener Uhren: Wir präsentieren Ihr Angebot unserem Netzwerk vermögender Privatkunden auf Erfolgshonorarbasis.</p>
-        <a class="btn" href="/de/partners-asset">Objektpartner werden →</a>
+<ul class="op-check-list">
+  <li>Reine Erfolgsprovision — keine Listungskosten</li>
+  <li>Direkter Zugang zu unserem Netzwerk vermögender Privatkunden</li>
+  <li>Keine Exklusivität erforderlich</li>
+  <li>Zahlung innerhalb von 10 Werktagen nach Abschluss</li>
+</ul>
+<a class="btn" href="/de/partners-asset">Objektpartner werden →</a>
       </div>
     </div>
     <p style="text-align:center; margin-top:2.2em; font-size:0.9rem; color:rgba(242,236,217,0.6);">Nicht sicher, was zutrifft? <a href="/de/contact" style="color:var(--gold);">Kontaktieren Sie uns direkt</a>.</p>
