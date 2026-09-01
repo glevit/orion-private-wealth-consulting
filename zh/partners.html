@@ -53,6 +53,12 @@
   .partner-card h3 { margin:0 0 0.5em; }
   .partner-card p { color:rgba(242,236,217,0.75); margin-bottom:1.4em; }
 </style>
+<style>
+  :root { --op-check-color: #1f8a4c; --op-check-text: var(--ivory); }
+  .op-check-list { list-style: none; margin: 1.25rem 0 1.5rem; padding: 0; }
+  .op-check-list li { display: flex; align-items: flex-start; gap: 0.6rem; margin-bottom: 0.65rem; font-size: 0.95rem; line-height: 1.4; color: var(--op-check-text); }
+  .op-check-list li::before { content: "\2713"; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; width: 1.1rem; height: 1.1rem; border-radius: 50%; background: var(--op-check-color); color: #ffffff; font-size: 0.7rem; font-weight: 700; line-height: 1; margin-top: 0.15rem; }
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -91,13 +97,25 @@
         <span class="eyebrow">引荐客户</span>
         <h3>推荐合作伙伴</h3>
         <p>私人银行家、律师、税务及黄金签证顾问：如果您认识正在寻找场外豪华房产、名车或名表的客户，请审慎地为我们引荐，其余的交给我们处理。</p>
-        <a class="btn" href="/zh/partners-referral">成为推荐合作伙伴 →</a>
+<ul class="op-check-list">
+  <li>您无需承担任何费用或佣金</li>
+  <li>您与客户的关系将始终受到保护并保密</li>
+  <li>仅在交易完成后支付报酬</li>
+  <li>无需承诺独家合作</li>
+</ul>
+<a class="btn" href="/zh/partners-referral">成为推荐合作伙伴 →</a>
       </div>
       <div class="partner-card">
         <span class="eyebrow">提供资产</span>
         <h3>资产合作伙伴</h3>
         <p>房地产开发商、汽车经销商及名表经销商：我们以成功费模式，将您的资源展示给我们的超高净值客户网络。</p>
-        <a class="btn" href="/zh/partners-asset">成为资产合作伙伴 →</a>
+<ul class="op-check-list">
+  <li>纯成功费模式——零挂牌费用</li>
+  <li>直接对接我们的超高净值客户网络</li>
+  <li>无需独家合作</li>
+  <li>成交后10个工作日内付款</li>
+</ul>
+<a class="btn" href="/zh/partners-asset">成为资产合作伙伴 →</a>
       </div>
     </div>
     <p style="text-align:center; margin-top:2.2em; font-size:0.9rem; color:rgba(242,236,217,0.6);">不确定属于哪一类？<a href="/zh/contact" style="color:var(--gold);">请直接联系我们</a>。</p>
