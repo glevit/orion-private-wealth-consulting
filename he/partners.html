@@ -54,6 +54,12 @@
   .partner-card h3 { margin:0 0 0.5em; }
   .partner-card p { color:rgba(242,236,217,0.75); margin-bottom:1.4em; }
 </style>
+<style>
+  :root { --op-check-color: #1f8a4c; --op-check-text: var(--ivory); }
+  .op-check-list { list-style: none; margin: 1.25rem 0 1.5rem; padding: 0; }
+  .op-check-list li { display: flex; align-items: flex-start; gap: 0.6rem; margin-bottom: 0.65rem; font-size: 0.95rem; line-height: 1.4; color: var(--op-check-text); }
+  .op-check-list li::before { content: "\2713"; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; width: 1.1rem; height: 1.1rem; border-radius: 50%; background: var(--op-check-color); color: #ffffff; font-size: 0.7rem; font-weight: 700; line-height: 1; margin-top: 0.15rem; }
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -92,13 +98,25 @@
         <span class="eyebrow">הציגו לקוחות</span>
         <h3>שותף הפניות</h3>
         <p>בנקאים פרטיים, עורכי דין, יועצי מס ו-golden visa: אם אתם מכירים מישהו המחפש נכס, רכב או שעון יוקרתי מחוץ לשוק הפתוח, הציגו אותו לנו בדיסקרטיות. את השאר נטפל אנחנו.</p>
-        <a class="btn" href="/he/partners-referral">הפכו לשותף הפניות ←</a>
+<ul class="op-check-list">
+  <li>ללא עלות או עמלה מצדך</li>
+  <li>הקשר שלך עם הלקוח נשאר מוגן ודיסקרטי</li>
+  <li>תגמול רק על עסקאות שהושלמו</li>
+  <li>אין צורך במחויבות לבלעדיות</li>
+</ul>
+<a class="btn" href="/he/partners-referral">הפכו לשותף הפניות ←</a>
       </div>
       <div class="partner-card">
         <span class="eyebrow">ספקו נכסים</span>
         <h3>שותף נכסים</h3>
         <p>יזמי נדל"ן, סוחרי רכב וסוחרי שעונים נדירים: אנו מציגים את המלאי שלכם בפני רשת הלקוחות בעלי ההון הרב שלנו על בסיס דמי הצלחה.</p>
-        <a class="btn" href="/he/partners-asset">הפכו לשותף נכסים ←</a>
+<ul class="op-check-list">
+  <li>עמלת הצלחה טהורה — ללא עלויות רישום</li>
+  <li>גישה ישירה לרשת הלקוחות בעלי ההון הרב שלנו</li>
+  <li>אין צורך בבלעדיות</li>
+  <li>תשלום תוך 10 ימי עסקים מסגירת העסקה</li>
+</ul>
+<a class="btn" href="/he/partners-asset">הפכו לשותף נכסים ←</a>
       </div>
     </div>
     <p style="text-align:center; margin-top:2.2em; font-size:0.9rem; color:rgba(242,236,217,0.6);">לא בטוחים מה מתאים לכם? <a href="/he/contact" style="color:var(--gold);">צרו איתנו קשר ישיר</a>.</p>
