@@ -108,15 +108,32 @@ a:hover { color: var(--ivory); }
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-weight: 500;
-  opacity: 0.75;
   white-space: nowrap;
-  transition: opacity 0.2s, color 0.2s;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
 .nav-links a:hover,
 .nav-links a.active {
   opacity: 1;
   color: var(--gold);
+}
+
+@media (min-width: 781px) {
+  .nav-links a {
+    border: 1px solid #ffffff;
+    border-radius: 30px;
+    padding: 8px 16px;
+  }
+  .nav-links a.active {
+    background: var(--gold);
+    border-color: var(--gold);
+    color: var(--bg);
+  }
+  .nav-links a:hover {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: var(--bg);
+  }
 }
 
 .nav-toggle {
