@@ -53,6 +53,12 @@
   .partner-card h3 { margin:0 0 0.5em; }
   .partner-card p { color:rgba(242,236,217,0.75); margin-bottom:1.4em; }
 </style>
+<style>
+  :root { --op-check-color: #1f8a4c; --op-check-text: var(--ivory); }
+  .op-check-list { list-style: none; margin: 1.25rem 0 1.5rem; padding: 0; }
+  .op-check-list li { display: flex; align-items: flex-start; gap: 0.6rem; margin-bottom: 0.65rem; font-size: 0.95rem; line-height: 1.4; color: var(--op-check-text); }
+  .op-check-list li::before { content: "\2713"; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; width: 1.1rem; height: 1.1rem; border-radius: 50%; background: var(--op-check-color); color: #ffffff; font-size: 0.7rem; font-weight: 700; line-height: 1; margin-top: 0.15rem; }
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -91,13 +97,25 @@
         <span class="eyebrow">Presente Clientes</span>
         <h3>Socio Referidor</h3>
         <p>Banqueros privados, abogados, asesores fiscales y de golden visa: si conoce a alguien que busca una propiedad, automóvil o reloj de lujo fuera del mercado abierto, preséntenoslo con discreción. Nosotros nos encargamos del resto.</p>
-        <a class="btn" href="/es/partners-referral">Conviértase en Socio Referidor →</a>
+<ul class="op-check-list">
+  <li>Sin costos ni comisiones de tu parte</li>
+  <li>Tu relación con el cliente permanece protegida y discreta</li>
+  <li>Compensación solo por acuerdos completados</li>
+  <li>No se requiere exclusividad</li>
+</ul>
+<a class="btn" href="/es/partners-referral">Conviértase en Socio Referidor →</a>
       </div>
       <div class="partner-card">
         <span class="eyebrow">Aporte Activos</span>
         <h3>Socio de Activos</h3>
         <p>Promotores inmobiliarios, concesionarios de automóviles y distribuidores de relojes: presentamos su inventario a nuestra red de clientes de alto patrimonio bajo un modelo de honorarios de éxito.</p>
-        <a class="btn" href="/es/partners-asset">Conviértase en Socio de Activos →</a>
+<ul class="op-check-list">
+  <li>Comisión de éxito pura — sin costos de publicación</li>
+  <li>Acceso directo a nuestra red de clientes de alto patrimonio</li>
+  <li>No se requiere exclusividad</li>
+  <li>Pago dentro de los 10 días hábiles posteriores al cierre</li>
+</ul>
+<a class="btn" href="/es/partners-asset">Conviértase en Socio de Activos →</a>
       </div>
     </div>
     <p style="text-align:center; margin-top:2.2em; font-size:0.9rem; color:rgba(242,236,217,0.6);">¿No está seguro de cuál aplica? <a href="/es/contact" style="color:var(--gold);">Contáctenos directamente</a>.</p>

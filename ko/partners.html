@@ -53,6 +53,12 @@
   .partner-card h3 { margin:0 0 0.5em; }
   .partner-card p { color:rgba(242,236,217,0.75); margin-bottom:1.4em; }
 </style>
+<style>
+  :root { --op-check-color: #1f8a4c; --op-check-text: var(--ivory); }
+  .op-check-list { list-style: none; margin: 1.25rem 0 1.5rem; padding: 0; }
+  .op-check-list li { display: flex; align-items: flex-start; gap: 0.6rem; margin-bottom: 0.65rem; font-size: 0.95rem; line-height: 1.4; color: var(--op-check-text); }
+  .op-check-list li::before { content: "\2713"; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; width: 1.1rem; height: 1.1rem; border-radius: 50%; background: var(--op-check-color); color: #ffffff; font-size: 0.7rem; font-weight: 700; line-height: 1; margin-top: 0.15rem; }
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -91,13 +97,25 @@
         <span class="eyebrow">고객 소개</span>
         <h3>소개 파트너</h3>
         <p>프라이빗 뱅커, 변호사, 세무 및 골든비자 컨설턴트: 공개 시장 밖에서 럭셔리 부동산, 자동차 또는 시계를 찾는 분을 알고 계시다면, 신중하게 저희에게 소개해 주세요. 나머지는 저희가 처리합니다.</p>
-        <a class="btn" href="/ko/partners-referral">소개 파트너 되기 →</a>
+            <ul class="op-check-list">
+              <li>귀하 측에는 비용이나 수수료가 전혀 없습니다</li>
+              <li>고객과의 관계는 안전하고 은밀하게 보호됩니다</li>
+              <li>거래가 성사된 경우에만 보수를 지급합니다</li>
+              <li>독점 계약 의무가 없습니다</li>
+            </ul>
+            <a class="btn" href="/ko/partners-referral">소개 파트너 되기 →</a>
       </div>
       <div class="partner-card">
         <span class="eyebrow">자산 제공</span>
         <h3>자산 파트너</h3>
         <p>부동산 개발업체, 자동차 딜러, 희귀 시계 딜러: 저희는 성공 보수 모델을 기반으로 귀사의 보유 자산을 초고자산가 고객 네트워크에 소개합니다.</p>
-        <a class="btn" href="/ko/partners-asset">자산 파트너 되기 →</a>
+            <ul class="op-check-list">
+              <li>순수 성공 수수료 방식 — 등록 비용 없음</li>
+              <li>초고순자산 고객 네트워크에 직접 접근 가능</li>
+              <li>독점 계약이 필요하지 않습니다</li>
+              <li>거래 종료 후 10 영업일 이내 지급</li>
+            </ul>
+            <a class="btn" href="/ko/partners-asset">자산 파트너 되기 →</a>
       </div>
     </div>
     <p style="text-align:center; margin-top:2.2em; font-size:0.9rem; color:rgba(242,236,217,0.6);">어느 쪽에 해당하는지 확실하지 않으신가요? <a href="/ko/contact" style="color:var(--gold);">직접 문의해 주세요</a>.</p>

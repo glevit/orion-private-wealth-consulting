@@ -53,6 +53,12 @@
   .partner-card h3 { margin:0 0 0.5em; }
   .partner-card p { color:rgba(242,236,217,0.75); margin-bottom:1.4em; }
 </style>
+<style>
+  :root { --op-check-color: #1f8a4c; --op-check-text: var(--ivory); }
+  .op-check-list { list-style: none; margin: 1.25rem 0 1.5rem; padding: 0; }
+  .op-check-list li { display: flex; align-items: flex-start; gap: 0.6rem; margin-bottom: 0.65rem; font-size: 0.95rem; line-height: 1.4; color: var(--op-check-text); }
+  .op-check-list li::before { content: "\2713"; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; width: 1.1rem; height: 1.1rem; border-radius: 50%; background: var(--op-check-color); color: #ffffff; font-size: 0.7rem; font-weight: 700; line-height: 1; margin-top: 0.15rem; }
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -91,13 +97,25 @@
         <span class="eyebrow">Рекомендуйте клієнтів</span>
         <h3>Партнер-рекомендодавець</h3>
         <p>Приватні банкіри, юристи, податкові консультанти та консультанти з golden visa: якщо ви знаєте людину, яка шукає елітну нерухомість, автомобіль або годинник поза відкритим ринком, представте її нам з належною обережністю. Решту зробимо ми.</p>
-        <a class="btn" href="/uk/partners-referral">Стати партнером-рекомендодавцем →</a>
+<ul class="op-check-list">
+  <li>Жодних витрат чи комісій з вашого боку</li>
+  <li>Ваші стосунки з клієнтом залишаються захищеними та конфіденційними</li>
+  <li>Винагорода лише за завершені угоди</li>
+  <li>Ексклюзивність не вимагається</li>
+</ul>
+<a class="btn" href="/uk/partners-referral">Стати партнером-рекомендодавцем →</a>
       </div>
       <div class="partner-card">
         <span class="eyebrow">Постачайте активи</span>
         <h3>Партнер-постачальник активів</h3>
         <p>Забудовники нерухомості, автомобільні дилери та дилери рідкісних годинників: ми представляємо ваш портфель нашій мережі клієнтів з великим капіталом на умовах гонорару за успіх.</p>
-        <a class="btn" href="/uk/partners-asset">Стати партнером-постачальником активів →</a>
+<ul class="op-check-list">
+  <li>Чиста комісія за успіх — жодних витрат на розміщення</li>
+  <li>Прямий доступ до нашої мережі клієнтів з великим капіталом</li>
+  <li>Ексклюзивність не вимагається</li>
+  <li>Виплата протягом 10 робочих днів після закриття угоди</li>
+</ul>
+<a class="btn" href="/uk/partners-asset">Стати партнером-постачальником активів →</a>
       </div>
     </div>
     <p style="text-align:center; margin-top:2.2em; font-size:0.9rem; color:rgba(242,236,217,0.6);">Не впевнені, що підходить? <a href="/uk/contact" style="color:var(--gold);">Зв’яжіться з нами напряму</a>.</p>

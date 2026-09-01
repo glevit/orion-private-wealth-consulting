@@ -53,6 +53,12 @@
   .partner-card h3 { margin:0 0 0.5em; }
   .partner-card p { color:rgba(242,236,217,0.75); margin-bottom:1.4em; }
 </style>
+<style>
+  :root { --op-check-color: #1f8a4c; --op-check-text: var(--ivory); }
+  .op-check-list { list-style: none; margin: 1.25rem 0 1.5rem; padding: 0; }
+  .op-check-list li { display: flex; align-items: flex-start; gap: 0.6rem; margin-bottom: 0.65rem; font-size: 0.95rem; line-height: 1.4; color: var(--op-check-text); }
+  .op-check-list li::before { content: "\2713"; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; width: 1.1rem; height: 1.1rem; border-radius: 50%; background: var(--op-check-color); color: #ffffff; font-size: 0.7rem; font-weight: 700; line-height: 1; margin-top: 0.15rem; }
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -91,13 +97,25 @@
         <span class="eyebrow">ग्राहकों का परिचय दें</span>
         <h3>रेफ़रल पार्टनर</h3>
         <p>प्राइवेट बैंकर, वकील, टैक्स और गोल्डन वीज़ा सलाहकार: यदि आप किसी ऐसे व्यक्ति को जानते हैं जो खुले बाज़ार से बाहर लक्ज़री प्रॉपर्टी, ऑटोमोबाइल या घड़ी की तलाश में है, तो सावधानी से उनका परिचय हमें कराएं। बाकी काम हम संभालेंगे।</p>
-        <a class="btn" href="/hi/partners-referral">रेफ़रल पार्टनर बनें →</a>
+<ul class="op-check-list">
+  <li>आपकी ओर से कोई लागत या कमीशन नहीं</li>
+  <li>आपके ग्राहक संबंध सुरक्षित और गोपनीय रहते हैं</li>
+  <li>केवल पूर्ण हुए सौदों पर ही भुगतान</li>
+  <li>किसी विशेष अनुबंध की आवश्यकता नहीं</li>
+</ul>
+<a class="btn" href="/hi/partners-referral">रेफ़रल पार्टनर बनें →</a>
       </div>
       <div class="partner-card">
         <span class="eyebrow">एसेट प्रदान करें</span>
         <h3>एसेट पार्टनर</h3>
         <p>रियल एस्टेट डेवलपर्स, ऑटोमोबाइल डीलर्स और दुर्लभ घड़ियों के डीलर्स: हम कमीशन-आधारित मॉडल पर आपकी इन्वेंट्री को हमारे उच्च-नेटवर्थ ग्राहक नेटवर्क के सामने प्रस्तुत करते हैं।</p>
-        <a class="btn" href="/hi/partners-asset">एसेट पार्टनर बनें →</a>
+<ul class="op-check-list">
+  <li>शुद्ध सफलता-शुल्क मॉडल — कोई लिस्टिंग लागत नहीं</li>
+  <li>हमारे अति-उच्च निवल संपत्ति ग्राहक नेटवर्क तक सीधी पहुंच</li>
+  <li>किसी विशेष अनुबंध की आवश्यकता नहीं</li>
+  <li>सौदा पूर्ण होने के 10 कार्य दिवसों के भीतर भुगतान</li>
+</ul>
+<a class="btn" href="/hi/partners-asset">एसेट पार्टनर बनें →</a>
       </div>
     </div>
     <p style="text-align:center; margin-top:2.2em; font-size:0.9rem; color:rgba(242,236,217,0.6);">निश्चित नहीं कि कौन सा लागू होता है? <a href="/hi/contact" style="color:var(--gold);">सीधे हमसे संपर्क करें</a>।</p>
