@@ -53,6 +53,12 @@
   .partner-card h3 { margin:0 0 0.5em; }
   .partner-card p { color:rgba(242,236,217,0.75); margin-bottom:1.4em; }
 </style>
+<style>
+  :root { --op-check-color: #1f8a4c; --op-check-text: var(--ivory); }
+  .op-check-list { list-style: none; margin: 1.25rem 0 1.5rem; padding: 0; }
+  .op-check-list li { display: flex; align-items: flex-start; gap: 0.6rem; margin-bottom: 0.65rem; font-size: 0.95rem; line-height: 1.4; color: var(--op-check-text); }
+  .op-check-list li::before { content: "\2713"; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; width: 1.1rem; height: 1.1rem; border-radius: 50%; background: var(--op-check-color); color: #ffffff; font-size: 0.7rem; font-weight: 700; line-height: 1; margin-top: 0.15rem; }
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -91,13 +97,25 @@
         <span class="eyebrow">Apresente Clientes</span>
         <h3>Parceiro de Indicação</h3>
         <p>Banqueiros privados, advogados, consultores fiscais e de golden visa: se conhece alguém à procura de um imóvel, automóvel ou relógio de luxo fora do mercado aberto, apresente-o com discrição. Nós tratamos do resto.</p>
-        <a class="btn" href="/pt/partners-referral">Torne-se Parceiro de Indicação →</a>
+            <ul class="op-check-list">
+              <li>Nenhum custo ou comissão da sua parte</li>
+              <li>Sua relação com o cliente permanece protegida e discreta</li>
+              <li>Remuneração apenas em negócios concluídos</li>
+              <li>Nenhum compromisso de exclusividade exigido</li>
+            </ul>
+            <a class="btn" href="/pt/partners-referral">Torne-se Parceiro de Indicação →</a>
       </div>
       <div class="partner-card">
         <span class="eyebrow">Forneça Ativos</span>
         <h3>Parceiro de Ativos</h3>
         <p>Promotores imobiliários, concessionários de automóveis e revendedores de relógios raros: apresentamos o seu inventário à nossa rede de clientes de elevado patrimônio, num modelo de honorários de sucesso.</p>
-        <a class="btn" href="/pt/partners-asset">Torne-se Parceiro de Ativos →</a>
+            <ul class="op-check-list">
+              <li>Comissão de sucesso pura — sem custos de listagem</li>
+              <li>Acesso direto à nossa rede de clientes de altíssimo patrimônio</li>
+              <li>Nenhuma exclusividade exigida</li>
+              <li>Pagamento em até 10 dias úteis após o fechamento</li>
+            </ul>
+            <a class="btn" href="/pt/partners-asset">Torne-se Parceiro de Ativos →</a>
       </div>
     </div>
     <p style="text-align:center; margin-top:2.2em; font-size:0.9rem; color:rgba(242,236,217,0.6);">Não tem certeza qual se aplica? <a href="/pt/contact" style="color:var(--gold);">Contate-nos diretamente</a>.</p>
