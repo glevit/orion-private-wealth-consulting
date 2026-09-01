@@ -53,6 +53,12 @@
   .partner-card h3 { margin:0 0 0.5em; }
   .partner-card p { color:rgba(242,236,217,0.75); margin-bottom:1.4em; }
 </style>
+<style>
+  :root { --op-check-color: #1f8a4c; --op-check-text: var(--ivory); }
+  .op-check-list { list-style: none; margin: 1.25rem 0 1.5rem; padding: 0; }
+  .op-check-list li { display: flex; align-items: flex-start; gap: 0.6rem; margin-bottom: 0.65rem; font-size: 0.95rem; line-height: 1.4; color: var(--op-check-text); }
+  .op-check-list li::before { content: "\2713"; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; width: 1.1rem; height: 1.1rem; border-radius: 50%; background: var(--op-check-color); color: #ffffff; font-size: 0.7rem; font-weight: 700; line-height: 1; margin-top: 0.15rem; }
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -91,13 +97,25 @@
         <span class="eyebrow">顧客をご紹介</span>
         <h3>リファラルパートナー</h3>
         <p>プライベートバンカー、弁護士、税務・ゴールデンビザアドバイザーの皆様：公開市場に出ていない高級不動産、自動車、時計をお探しの方をご存知でしたら、慎重にご紹介ください。あとは私たちが対応いたします。</p>
-        <a class="btn" href="/ja/partners-referral">リファラルパートナーになる →</a>
+            <ul class="op-check-list">
+              <li>お客様側の費用や手数料は一切不要です</li>
+              <li>お客様のクライアント関係は保護され、機密性が保たれます</li>
+              <li>報酬は成約した取引についてのみ発生します</li>
+              <li>独占契約の義務はありません</li>
+            </ul>
+            <a class="btn" href="/ja/partners-referral">リファラルパートナーになる →</a>
       </div>
       <div class="partner-card">
         <span class="eyebrow">資産をご提供</span>
         <h3>アセットパートナー</h3>
         <p>不動産デベロッパー、自動車ディーラー、希少時計のディーラーの皆様：成功報酬モデルのもと、御社の在庫を私たちの超富裕層クライアントネットワークにご紹介します。</p>
-        <a class="btn" href="/ja/partners-asset">アセットパートナーになる →</a>
+            <ul class="op-check-list">
+              <li>純粋な成功報酬制 — 掲載費用は一切不要</li>
+              <li>超富裕層クライアントネットワークへの直接アクセス</li>
+              <li>独占契約は不要です</li>
+              <li>成約後10営業日以内にお支払いします</li>
+            </ul>
+            <a class="btn" href="/ja/partners-asset">アセットパートナーになる →</a>
       </div>
     </div>
     <p style="text-align:center; margin-top:2.2em; font-size:0.9rem; color:rgba(242,236,217,0.6);">どちらに該当するか分からない場合は？<a href="/ja/contact" style="color:var(--gold);">直接お問い合わせください</a>。</p>
