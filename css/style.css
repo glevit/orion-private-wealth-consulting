@@ -147,6 +147,21 @@ a:hover { color: var(--ivory); }
   }
 }
 
+/* Menu più compatto per le lingue con etichette lunghe (DE, FR)
+   così tutti i link restano su una riga e il selettore lingua non va a capo da solo */
+@media (min-width: 781px) {
+  html[lang="de"] .nav-links,
+  html[lang="fr"] .nav-links {
+    gap: 4px;
+  }
+  html[lang="de"] .nav-links > li > a,
+  html[lang="fr"] .nav-links > li > a {
+    padding: 5px 8px;
+    font-size: 0.62rem;
+    letter-spacing: 0.02em;
+  }
+}
+
 .nav-toggle {
   display: none;
   background: none;
