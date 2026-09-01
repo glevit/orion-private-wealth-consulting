@@ -53,6 +53,12 @@
   .partner-card h3 { margin:0 0 0.5em; }
   .partner-card p { color:rgba(242,236,217,0.75); margin-bottom:1.4em; }
 </style>
+<style>
+  :root { --op-check-color: #1f8a4c; --op-check-text: var(--ivory); }
+  .op-check-list { list-style: none; margin: 1.25rem 0 1.5rem; padding: 0; }
+  .op-check-list li { display: flex; align-items: flex-start; gap: 0.6rem; margin-bottom: 0.65rem; font-size: 0.95rem; line-height: 1.4; color: var(--op-check-text); }
+  .op-check-list li::before { content: "\2713"; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; width: 1.1rem; height: 1.1rem; border-radius: 50%; background: var(--op-check-color); color: #ffffff; font-size: 0.7rem; font-weight: 700; line-height: 1; margin-top: 0.15rem; }
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -91,13 +97,25 @@
         <span class="eyebrow">Présentez des Clients</span>
         <h3>Apporteur d’Affaires</h3>
         <p>Banquiers privés, avocats, conseillers fiscaux et en golden visa : si vous connaissez une personne recherchant un bien immobilier, une automobile ou une montre de luxe hors marché, présentez-la-nous avec discrétion. Nous nous occupons du reste.</p>
-        <a class="btn" href="/fr/partners-referral">Devenir apporteur d’affaires →</a>
+<ul class="op-check-list">
+  <li>Aucun coût ni commission de votre part</li>
+  <li>Votre relation client reste protégée et discrète</li>
+  <li>Rémunération uniquement sur les transactions conclues</li>
+  <li>Aucun engagement d'exclusivité requis</li>
+</ul>
+<a class="btn" href="/fr/partners-referral">Devenir apporteur d’affaires →</a>
       </div>
       <div class="partner-card">
         <span class="eyebrow">Fournissez des Actifs</span>
         <h3>Partenaire Actifs</h3>
         <p>Promoteurs immobiliers, concessionnaires automobiles et négociants en montres rares : nous présentons votre inventaire à notre réseau de clients fortunés sur la base d’honoraires de succès.</p>
-        <a class="btn" href="/fr/partners-asset">Devenir partenaire actifs →</a>
+<ul class="op-check-list">
+  <li>Commission au succès pure — aucun frais de mise en avant</li>
+  <li>Accès direct à notre réseau de clients fortunés</li>
+  <li>Aucune exclusivité requise</li>
+  <li>Paiement sous 10 jours ouvrés après la clôture</li>
+</ul>
+<a class="btn" href="/fr/partners-asset">Devenir partenaire actifs →</a>
       </div>
     </div>
     <p style="text-align:center; margin-top:2.2em; font-size:0.9rem; color:rgba(242,236,217,0.6);">Vous ne savez pas quelle catégorie s’applique ? <a href="/fr/contact" style="color:var(--gold);">Contactez-nous directement</a>.</p>
