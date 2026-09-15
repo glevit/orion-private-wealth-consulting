@@ -155,5 +155,51 @@
     }
   })();
 </script>
+<!-- Cookie consent banner: Google Consent Mode v2, default-deny -->
+<style>
+#orion-cookie-banner{position:fixed;left:0;right:0;bottom:0;z-index:9999;background:#0b0b0d;border-top:1px solid #C9A24B;padding:18px 20px;display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:center;font-family:'Inter',sans-serif;font-size:0.85rem;color:#f5f1e8;}
+#orion-cookie-banner p{margin:0;max-width:640px;}
+#orion-cookie-banner a{color:#C9A24B;text-decoration:underline;}
+.orion-cookie-btn{font-family:'Montserrat',sans-serif;text-transform:uppercase;letter-spacing:0.05em;font-size:0.75rem;padding:0.6em 1.4em;border:1px solid #C9A24B;background:transparent;color:#C9A24B;cursor:pointer;}
+.orion-cookie-btn.primary{background:#C9A24B;color:#0b0b0d;}
+#orion-cookie-banner{display:none;}
+</style>
+<div id="orion-cookie-banner" role="dialog" aria-live="polite" aria-label="Cookie consent">
+  <p id="orion-cookie-text"></p>
+  <div style="display:flex;gap:10px;flex-wrap:wrap;">
+    <button class="orion-cookie-btn" id="orion-cookie-decline"></button>
+    <button class="orion-cookie-btn primary" id="orion-cookie-accept"></button>
+  </div>
+</div>
+<script>
+(function(){
+  var COPY = {
+    text: "We use cookies to improve your experience and analyze site usage. You can accept or decline non-essential cookies at any time.",
+    decline: "Essential only",
+    accept: "Accept"
+  };
+  document.getElementById('orion-cookie-text').textContent = COPY.text;
+  document.getElementById('orion-cookie-decline').textContent = COPY.decline;
+  document.getElementById('orion-cookie-accept').textContent = COPY.accept;
+  function setConsent(granted){
+    var v = granted ? 'granted' : 'denied';
+    if (typeof gtag === 'function') {
+      gtag('consent', 'update', {
+        'ad_storage': v, 'ad_user_data': v, 'ad_personalization': v, 'analytics_storage': v
+      });
+    }
+    try { localStorage.setItem('orion_consent', v); } catch(e){}
+    document.getElementById('orion-cookie-banner').style.display = 'none';
+  }
+  var stored;
+  try { stored = localStorage.getItem('orion_consent'); } catch(e){ stored = null; }
+  if (!stored) {
+    document.getElementById('orion-cookie-banner').style.display = 'flex';
+  }
+  document.getElementById('orion-cookie-accept').addEventListener('click', function(){ setConsent(true); });
+  document.getElementById('orion-cookie-decline').addEventListener('click', function(){ setConsent(false); });
+})();
+</script>
+
 </body>
 </html>
