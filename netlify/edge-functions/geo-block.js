@@ -39,7 +39,13 @@ export default async (request, context) => {
       }
     );
   }
-
+  // Redirect delle vecchie URL .html verso la versione pulita
+    const url = new URL(request.url);
+    if (url.pathname.endsWith(".html")) {
+          url.pathname = url.pathname.slice(0, -5);
+          return Response.redirect(url.toString(), 301);
+    }
+  
   return context.next();
 };
 
