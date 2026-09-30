@@ -522,3 +522,18 @@ textarea { min-height: 120px; resize: vertical; }
   .lang-dropdown a { padding: 14px 40px; }
   .nav-links.open { padding-bottom: 140px; }
 }
+
+/* Who We Are: founder gallery */
+.founder-gallery { padding-top: 0; }
+.founder-gallery figure { margin: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 3px; background: var(--bg-alt); }
+.founder-gallery img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.founder-gallery .gallery-main { aspect-ratio: 2 / 0.9; }
+.founder-gallery .gallery-pair { display: grid; grid-template-columns: 3fr 5fr; gap: clamp(12px, 2vw, 24px); margin-top: clamp(12px, 2vw, 24px); }
+.founder-gallery .gallery-a { aspect-ratio: 4 / 5; }
+.founder-gallery .gallery-b { aspect-ratio: 4 / 3; }
+.founder-gallery .gallery-main img { object-position: 50% 45%; }
+.founder-gallery .gallery-a img { object-position: 50% 20%; }
+.founder-gallery .gallery-b img { object-position: 50% 40%; }
+@media (max-width: 640px) {
+  .founder-gallery .gallery-pair { grid-template-columns: 1fr; }
+}
