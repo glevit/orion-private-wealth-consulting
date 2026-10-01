@@ -22,6 +22,16 @@
     s.src='https://www.googletagmanager.com/gtag/js?id=G-S1Q6BFKL8L';
     document.head.appendChild(s);
   });
+  // Microsoft Clarity: caricato solo dopo consenso
+  window.orionLoadClarity = function(){
+    if (window.__orionClarity) return; window.__orionClarity = true;
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yqf6dvtz7y");
+  };
+  try { if (localStorage.getItem('orion_consent') === 'granted') { window.addEventListener('load', window.orionLoadClarity); } } catch(e){}
 </script>
 
 <meta charset="UTF-8">
@@ -203,6 +213,7 @@
       });
     }
     try { localStorage.setItem('orion_consent', v); } catch(e){}
+    if (granted && window.orionLoadClarity) { window.orionLoadClarity(); }
     document.getElementById('orion-cookie-banner').style.display = 'none';
   }
   var stored;
