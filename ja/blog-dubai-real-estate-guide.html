@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-S1Q6BFKL8L"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
+gtag('consent', 'default', {
+  'ad_storage': 'denied', 'ad_user_data': 'denied', 'ad_personalization': 'denied', 'analytics_storage': 'denied'
+});
+try {
+  if (localStorage.getItem('orion_consent') === 'granted') {
+    gtag('consent', 'update', {
+      'ad_storage': 'granted', 'ad_user_data': 'granted', 'ad_personalization': 'granted', 'analytics_storage': 'granted'
+    });
+  }
+} catch(e){}
 gtag('js', new Date());
 gtag('config', 'G-S1Q6BFKL8L');
+  window.addEventListener('load', function(){
+    var s=document.createElement('script');s.async=true;
+    s.src='https://www.googletagmanager.com/gtag/js?id=G-S1Q6BFKL8L';
+    document.head.appendChild(s);
+  });
+  // Microsoft Clarity: caricato solo dopo consenso
+  window.orionLoadClarity = function(){
+    if (window.__orionClarity) return; window.__orionClarity = true;
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yqf6dvtz7y");
+  };
+  try { if (localStorage.getItem('orion_consent') === 'granted') { window.addEventListener('load', window.orionLoadClarity); } } catch(e){}
 </script>
 
 <meta charset="UTF-8">
@@ -36,7 +60,8 @@ gtag('config', 'G-S1Q6BFKL8L');
 <link rel="alternate" hreflang="x-default" href="https://orionprivatewealthconsulting.com/blog-dubai-real-estate-guide">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@700;800&display=swap"></noscript>
 <link rel="stylesheet" href="/css/style.css">
 <link rel="canonical" href="https://orionprivatewealthconsulting.com/ja/blog-dubai-real-estate-guide">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Orion Private Wealth Consulting LLC","url":"https://orionprivatewealthconsulting.com","logo":"https://orionprivatewealthconsulting.com/images/logo-lockup.png","areaServed":["United Arab Emirates","Switzerland","France","United States"],"sameAs":[]}</script>
@@ -48,26 +73,26 @@ gtag('config', 'G-S1Q6BFKL8L');
 <body>
 <header class="site-header">
 <div class="nav">
-<a class="logo" href="/ja/"><img src="/images/logo-lockup.png" alt="Orion Private Wealth Consulting"></a>
+<a class="logo" href="/ja/" title="Orion Private Wealth Consulting"><img src="/images/logo-lockup.png" alt="Orion Private Wealth Consulting"></a>
 <button class="nav-toggle" id="navToggle" aria-label="メニュー">メニュー</button>
 <ul class="nav-links" id="navLinks">
-<li><a class="" href="/ja/">ホーム</a></li>
-<li><a class="" href="/ja/who-we-are">会社概要</a></li>
-<li><a class="" href="/ja/services">サービス</a></li>
-<li><a class="" href="/ja/markets">市場</a></li>
-<li><a class="" href="/ja/how-it-works">ご利用の流れ</a></li>
-<li><a class="" href="/ja/partners">パートナー</a></li>
-<li><a class="" href="/ja/faq">よくある質問</a></li>
-<li><a class="active" href="/ja/blog">インサイト</a></li>
-<li><a class="" href="/ja/contact">お問い合わせ</a></li>
+<li><a class="" href="/ja/" title="ホーム">ホーム</a></li>
+<li><a class="" href="/ja/who-we-are" title="会社概要">会社概要</a></li>
+<li><a class="" href="/ja/services" title="サービス">サービス</a></li>
+<li><a class="" href="/ja/markets" title="市場">市場</a></li>
+<li><a class="" href="/ja/how-it-works" title="ご利用の流れ">ご利用の流れ</a></li>
+<li><a class="" href="/ja/partners" title="パートナー">パートナー</a></li>
+<li><a class="" href="/ja/faq" title="よくある質問">よくある質問</a></li>
+<li><a class="active" href="/ja/blog" title="インサイト">インサイト</a></li>
+<li><a class="" href="/ja/contact" title="お問い合わせ">お問い合わせ</a></li>
 
-<li class="lang-item"><div class="lang-switch"><button class="lang-current" id="langToggle" type="button" aria-haspopup="true" aria-expanded="false"><img class="lang-flag" src="/images/flags/jp.svg" alt="JA" width="20" height="10"> JA <span class="lang-caret">▾</span></button><ul class="lang-dropdown" id="langDropdown"><li><a class="" href="/blog-dubai-real-estate-guide"><img class="lang-flag" src="/images/flags/gb.svg" alt="EN" width="20" height="10"> English</a></li><li><a class="" href="/ru/blog-dubai-real-estate-guide"><img class="lang-flag" src="/images/flags/ru.svg" alt="RU" width="20" height="10"> Русский</a></li><li><a class="" href="/uk/blog-dubai-real-estate-guide"><img class="lang-flag" src="/images/flags/ua.svg" alt="UK" width="20" height="10"> Українська</a></li><li><a class="" href="/ar/blog-dubai-real-estate-guide"><img class="lang-flag" src="/images/flags/ae.svg" alt="AR" width="20" height="10"> العربية</a></li><li><a class="" href="/zh/blog-dubai-real-estate-guide"><img class="lang-flag" src="/images/flags/cn.svg" alt="ZH" width="20" height="10"> 中文</a></li><li><a class="" href="/de/blog-dubai-real-estate-guide"><img class="lang-flag" src="/images/flags/de.svg" alt="DE" width="20" height="10"> Deutsch</a></li><li><a class="" href="/hi/blog-dubai-real-estate-guide"><img class="lang-flag" src="/images/flags/in.svg" alt="HI" width="20" height="10"> हिन्दी</a></li><li><a class="" href="/fr/blog-dubai-real-estate-guide"><img class="lang-flag" src="/images/flags/fr.svg" alt="FR" width="20" height="10"> Français</a></li><li><a class="" href="/he/blog-dubai-real-estate-guide"><img class="lang-flag" src="/images/flags/il.svg" alt="HE" width="20" height="10"> עברית</a></li><li><a class="" href="/es/blog-dubai-real-estate-guide"><img class="lang-flag" src="/images/flags/es.svg" alt="ES" width="20" height="10"> Español</a></li><li><a class="" href="/pt/blog-dubai-real-estate-guide"><img class="lang-flag" src="/images/flags/pt.svg" alt="PT" width="20" height="10"> Portugu&ecirc;s</a></li><li><a class="" href="/ko/blog-dubai-real-estate-guide"><img class="lang-flag" src="/images/flags/kr.svg" alt="KO" width="20" height="10"> 한국어</a></li><li><a class="lang-active" href="/ja/blog-dubai-real-estate-guide"><img class="lang-flag" src="/images/flags/jp.svg" alt="JA" width="20" height="10"> 日本語</a></li></ul></div></li>
+<li class="lang-item"><div class="lang-switch"><button class="lang-current" id="langToggle" type="button" aria-haspopup="true" aria-expanded="false"><img class="lang-flag" src="/images/flags/jp.svg" alt="JA" width="20" height="10"> JA <span class="lang-caret">▾</span></button><ul class="lang-dropdown" id="langDropdown"><li><a class="" href="/blog-dubai-real-estate-guide" title="English"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/gb.svg" alt="EN" width="20" height="10"> English</a></li><li><a class="" href="/ru/blog-dubai-real-estate-guide" title="Русский"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/ru.svg" alt="RU" width="20" height="10"> Русский</a></li><li><a class="" href="/uk/blog-dubai-real-estate-guide" title="Українська"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/ua.svg" alt="UK" width="20" height="10"> Українська</a></li><li><a class="" href="/ar/blog-dubai-real-estate-guide" title="العربية"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/ae.svg" alt="AR" width="20" height="10"> العربية</a></li><li><a class="" href="/zh/blog-dubai-real-estate-guide" title="中文"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/cn.svg" alt="ZH" width="20" height="10"> 中文</a></li><li><a class="" href="/de/blog-dubai-real-estate-guide" title="Deutsch"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/de.svg" alt="DE" width="20" height="10"> Deutsch</a></li><li><a class="" href="/hi/blog-dubai-real-estate-guide" title="हिन्दी"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/in.svg" alt="HI" width="20" height="10"> हिन्दी</a></li><li><a class="" href="/fr/blog-dubai-real-estate-guide" title="Français"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/fr.svg" alt="FR" width="20" height="10"> Français</a></li><li><a class="" href="/he/blog-dubai-real-estate-guide" title="עברית"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/il.svg" alt="HE" width="20" height="10"> עברית</a></li><li><a class="" href="/es/blog-dubai-real-estate-guide" title="Español"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/es.svg" alt="ES" width="20" height="10"> Español</a></li><li><a class="" href="/pt/blog-dubai-real-estate-guide" title="Português"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/pt.svg" alt="PT" width="20" height="10"> Portugu&ecirc;s</a></li><li><a class="" href="/ko/blog-dubai-real-estate-guide" title="한국어"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/kr.svg" alt="KO" width="20" height="10"> 한국어</a></li><li><a class="lang-active" href="/ja/blog-dubai-real-estate-guide" title="日本語"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/jp.svg" alt="JA" width="20" height="10"> 日本語</a></li></ul></div></li>
 </ul>
 </div>
 </header>
 
 <article class="container" style="max-width:780px; padding-top:60px; padding-bottom:40px;">
-<a href="/ja/blog" style="color:#C9A24B; text-decoration:none; font-size:0.9rem;">&larr; インサイトに戻る</a>
+<a href="/ja/blog" style="color:#C9A24B; text-decoration:none; font-size:0.9rem;" title="← インサイトに戻る">&larr; インサイトに戻る</a>
 <h1 style="margin-top:24px;">ドバイでの高級不動産購入：海外投資家のためのガイド</h1>
 <p style="color:var(--gold); font-size:0.8rem; letter-spacing:0.05em; margin-bottom:1.5em;">2026年8月4日公開</p>
 <p>ドバイは今もなお、プレミアム不動産セクターへプライベート資本を惹きつけ続けています — それは一時的な流行ではなく、税制、規制の安定性、そして住宅供給の質という要素が精緻に組み合わさった結果です。本ガイドでは、エミレーツに資本を投じる前に知っておくべきこと、そしてプライベート仲介者がその過程でどのようにリスクを軽減できるかを解説します。</p>
@@ -88,7 +113,7 @@ gtag('config', 'G-S1Q6BFKL8L');
 
 <h2>プライベート仲介者の役割</h2>
 <p>Orionは、広く一般に出回る前の、検証済みのドバイの不動産機会をお客様にご紹介し、お客様が資本を投じる前に、デベロッパー、プロジェクトの進捗状況、支払い構造について予備的な検証を行います。私たちのモデルは成功報酬制です：取引が完了した場合にのみ報酬を得るため、契約締結時だけでなく、最初の対話の時点からお客様の利益と私たちの利益は一致しています。</p>
-<p>具体的なエリア、ゴールデンビザの取得スケジュール、オフプランの支払い構造といった、より実務的なご質問については、<a href="/ja/faq#real-estate">高級不動産に関するFAQ</a>によくあるご質問をまとめています。</p>
+<p>具体的なエリア、ゴールデンビザの取得スケジュール、オフプランの支払い構造といった、より実務的なご質問については、<a href="/ja/faq#real-estate" title="高級不動産に関するFAQ">高級不動産に関するFAQ</a>によくあるご質問をまとめています。</p>
 
 <hr>
 <p><em>本記事は一般的な情報提供のみを目的としており、投資、税務、または移民に関する助言を構成するものではありません。ゴールデンビザの取得要件や税務上の居住規則は変更される可能性があるため、購入者は大きな取引を行う前に、独立した法律・税務の専門家にご相談ください。</em></p>
@@ -97,11 +122,11 @@ gtag('config', 'G-S1Q6BFKL8L');
 
 <section class="section-alt">
 <div class="container" style="text-align:center;">
-<a class="btn btn-solid" href="/ja/contact">プライベート相談のご依頼</a>
+<a class="btn btn-solid" href="/ja/contact" title="プライベート相談のご依頼">プライベート相談のご依頼</a>
 </div>
 </section>
 
-<section class="section-alt" aria-label="Related Articles"><div class="container"><p style="color:var(--gold); font-size:0.85rem; text-transform:uppercase; letter-spacing:0.08em;">関連記事</p><ul style="list-style:none; padding:0; margin-top:0.75em;"><li><a href="/ja/blog-dubai-off-plan">ドバイでのオフプラン購入：海外投資家が知っておくべきこと</a></li><li><a href="/ja/blog-success-fee-model">成功報酬モデルが高級不動産仲介業界のインセンティブ構造を変える理由</a></li></ul></div></section>
+<section class="section-alt" aria-label="Related Articles"><div class="container"><p style="color:var(--gold); font-size:0.85rem; text-transform:uppercase; letter-spacing:0.08em;">関連記事</p><ul style="list-style:none; padding:0; margin-top:0.75em;"><li><a href="/ja/blog-dubai-off-plan" title="ドバイでのオフプラン購入：海外投資家が知っておくべきこと">ドバイでのオフプラン購入：海外投資家が知っておくべきこと</a></li><li><a href="/ja/blog-success-fee-model" title="成功報酬モデルが高級不動産仲介業界のインセンティブ構造を変える理由">成功報酬モデルが高級不動産仲介業界のインセンティブ構造を変える理由</a></li></ul></div></section>
 
 <footer class="site-footer">
 <div class="container">
@@ -109,8 +134,8 @@ gtag('config', 'G-S1Q6BFKL8L');
 <p>世界中のお客様に、細心の配慮と卓越したサービスを提供いたします。</p>
 <p>&copy; 2026 Orion Private Wealth Consulting LLC. 全著作権所有。</p>
 <div class="footer-links">
-<a href="/ja/privacy">プライバシーポリシー</a>
-<a href="/ja/terms">利用規約</a>
+<a href="/ja/privacy" title="プライバシーポリシー">プライバシーポリシー</a>
+<a href="/ja/terms" title="利用規約">利用規約</a>
 </div>
 </div>
 </footer>
@@ -120,7 +145,7 @@ document.getElementById('navToggle').addEventListener('click', function () {
 document.getElementById('navLinks').classList.toggle('open');
 });
 </script>
-<div class="whatsapp-float" role="complementary" aria-label="WhatsAppでのお問い合わせ"><a class="whatsapp-float-link" href="https://wa.me/17865786373" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp USA +1 786 578 6373"><svg class="whatsapp-float-icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.004 2.667c-7.363 0-13.333 5.97-13.333 13.333 0 2.353.615 4.66 1.782 6.687L2.667 29.333l6.79-1.78a13.28 13.28 0 0 0 6.547 1.714h.006c7.362 0 13.333-5.97 13.333-13.333 0-3.56-1.387-6.907-3.906-9.427a13.24 13.24 0 0 0-9.433-3.907zm0 24.4h-.005a11.08 11.08 0 0 1-5.65-1.548l-.405-.24-4.03 1.057 1.076-3.93-.264-.404a11.06 11.06 0 0 1-1.7-5.902c0-6.13 4.99-11.12 11.12-11.12 2.97 0 5.76 1.157 7.86 3.258a11.04 11.04 0 0 1 3.257 7.865c0 6.13-4.99 11.12-11.12 11.12zm6.096-8.33c-.334-.167-1.977-.976-2.283-1.087-.306-.112-.53-.167-.753.166-.223.334-.865 1.087-1.06 1.31-.195.223-.39.25-.724.084-.334-.167-1.41-.52-2.687-1.658-.994-.886-1.665-1.98-1.86-2.313-.195-.334-.02-.514.147-.68.15-.15.334-.39.5-.585.167-.195.223-.334.334-.557.112-.223.056-.418-.028-.585-.084-.167-.753-1.813-1.03-2.482-.272-.652-.55-.564-.753-.575-.195-.01-.418-.012-.641-.012s-.585.084-.892.418c-.306.334-1.17 1.144-1.17 2.79 0 1.646 1.198 3.236 1.365 3.46.167.222 2.357 3.6 5.712 5.048.798.345 1.42.55 1.905.703.8.254 1.53.218 2.106.132.643-.096 1.977-.808 2.256-1.588.279-.78.279-1.45.195-1.588-.084-.14-.306-.223-.641-.39z"></path></svg><span class="whatsapp-float-label">USA</span></a><a class="whatsapp-float-link" href="https://wa.me/393406488167" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp EU +39 340 648 8167"><svg class="whatsapp-float-icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.004 2.667c-7.363 0-13.333 5.97-13.333 13.333 0 2.353.615 4.66 1.782 6.687L2.667 29.333l6.79-1.78a13.28 13.28 0 0 0 6.547 1.714h.006c7.362 0 13.333-5.97 13.333-13.333 0-3.56-1.387-6.907-3.906-9.427a13.24 13.24 0 0 0-9.433-3.907zm0 24.4h-.005a11.08 11.08 0 0 1-5.65-1.548l-.405-.24-4.03 1.057 1.076-3.93-.264-.404a11.06 11.06 0 0 1-1.7-5.902c0-6.13 4.99-11.12 11.12-11.12 2.97 0 5.76 1.157 7.86 3.258a11.04 11.04 0 0 1 3.257 7.865c0 6.13-4.99 11.12-11.12 11.12zm6.096-8.33c-.334-.167-1.977-.976-2.283-1.087-.306-.112-.53-.167-.753.166-.223.334-.865 1.087-1.06 1.31-.195.223-.39.25-.724.084-.334-.167-1.41-.52-2.687-1.658-.994-.886-1.665-1.98-1.86-2.313-.195-.334-.02-.514.147-.68.15-.15.334-.39.5-.585.167-.195.223-.334.334-.557.112-.223.056-.418-.028-.585-.084-.167-.753-1.813-1.03-2.482-.272-.652-.55-.564-.753-.575-.195-.01-.418-.012-.641-.012s-.585.084-.892.418c-.306.334-1.17 1.144-1.17 2.79 0 1.646 1.198 3.236 1.365 3.46.167.222 2.357 3.6 5.712 5.048.798.345 1.42.55 1.905.703.8.254 1.53.218 2.106.132.643-.096 1.977-.808 2.256-1.588.279-.78.279-1.45.195-1.588-.084-.14-.306-.223-.641-.39z"></path></svg><span class="whatsapp-float-label">EU</span></a></div>
+<div class="whatsapp-float" role="complementary" aria-label="WhatsAppでのお問い合わせ"><a class="whatsapp-float-link" href="https://wa.me/17865786373" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp USA +1 786 578 6373" title="WhatsApp USA +1 786 578 6373"><svg class="whatsapp-float-icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.004 2.667c-7.363 0-13.333 5.97-13.333 13.333 0 2.353.615 4.66 1.782 6.687L2.667 29.333l6.79-1.78a13.28 13.28 0 0 0 6.547 1.714h.006c7.362 0 13.333-5.97 13.333-13.333 0-3.56-1.387-6.907-3.906-9.427a13.24 13.24 0 0 0-9.433-3.907zm0 24.4h-.005a11.08 11.08 0 0 1-5.65-1.548l-.405-.24-4.03 1.057 1.076-3.93-.264-.404a11.06 11.06 0 0 1-1.7-5.902c0-6.13 4.99-11.12 11.12-11.12 2.97 0 5.76 1.157 7.86 3.258a11.04 11.04 0 0 1 3.257 7.865c0 6.13-4.99 11.12-11.12 11.12zm6.096-8.33c-.334-.167-1.977-.976-2.283-1.087-.306-.112-.53-.167-.753.166-.223.334-.865 1.087-1.06 1.31-.195.223-.39.25-.724.084-.334-.167-1.41-.52-2.687-1.658-.994-.886-1.665-1.98-1.86-2.313-.195-.334-.02-.514.147-.68.15-.15.334-.39.5-.585.167-.195.223-.334.334-.557.112-.223.056-.418-.028-.585-.084-.167-.753-1.813-1.03-2.482-.272-.652-.55-.564-.753-.575-.195-.01-.418-.012-.641-.012s-.585.084-.892.418c-.306.334-1.17 1.144-1.17 2.79 0 1.646 1.198 3.236 1.365 3.46.167.222 2.357 3.6 5.712 5.048.798.345 1.42.55 1.905.703.8.254 1.53.218 2.106.132.643-.096 1.977-.808 2.256-1.588.279-.78.279-1.45.195-1.588-.084-.14-.306-.223-.641-.39z"></path></svg><span class="whatsapp-float-label">USA</span></a><a class="whatsapp-float-link" href="https://wa.me/393406488167" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp EU +39 340 648 8167" title="WhatsApp EU +39 340 648 8167"><svg class="whatsapp-float-icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.004 2.667c-7.363 0-13.333 5.97-13.333 13.333 0 2.353.615 4.66 1.782 6.687L2.667 29.333l6.79-1.78a13.28 13.28 0 0 0 6.547 1.714h.006c7.362 0 13.333-5.97 13.333-13.333 0-3.56-1.387-6.907-3.906-9.427a13.24 13.24 0 0 0-9.433-3.907zm0 24.4h-.005a11.08 11.08 0 0 1-5.65-1.548l-.405-.24-4.03 1.057 1.076-3.93-.264-.404a11.06 11.06 0 0 1-1.7-5.902c0-6.13 4.99-11.12 11.12-11.12 2.97 0 5.76 1.157 7.86 3.258a11.04 11.04 0 0 1 3.257 7.865c0 6.13-4.99 11.12-11.12 11.12zm6.096-8.33c-.334-.167-1.977-.976-2.283-1.087-.306-.112-.53-.167-.753.166-.223.334-.865 1.087-1.06 1.31-.195.223-.39.25-.724.084-.334-.167-1.41-.52-2.687-1.658-.994-.886-1.665-1.98-1.86-2.313-.195-.334-.02-.514.147-.68.15-.15.334-.39.5-.585.167-.195.223-.334.334-.557.112-.223.056-.418-.028-.585-.084-.167-.753-1.813-1.03-2.482-.272-.652-.55-.564-.753-.575-.195-.01-.418-.012-.641-.012s-.585.084-.892.418c-.306.334-1.17 1.144-1.17 2.79 0 1.646 1.198 3.236 1.365 3.46.167.222 2.357 3.6 5.712 5.048.798.345 1.42.55 1.905.703.8.254 1.53.218 2.106.132.643-.096 1.977-.808 2.256-1.588.279-.78.279-1.45.195-1.588-.084-.14-.306-.223-.641-.39z"></path></svg><span class="whatsapp-float-label">EU</span></a></div>
 <script>
   (function(){
     var btn = document.getElementById('langToggle');
@@ -174,6 +199,7 @@ document.getElementById('navLinks').classList.toggle('open');
       });
     }
     try { localStorage.setItem('orion_consent', v); } catch(e){}
+    if (granted && window.orionLoadClarity) { window.orionLoadClarity(); }
     document.getElementById('orion-cookie-banner').style.display = 'none';
   }
   var stored;

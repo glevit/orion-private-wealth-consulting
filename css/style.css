@@ -522,3 +522,40 @@ textarea { min-height: 120px; resize: vertical; }
   .lang-dropdown a { padding: 14px 40px; }
   .nav-links.open { padding-bottom: 140px; }
 }
+
+/* Who We Are: founder gallery */
+.founder-gallery { padding-top: 0; }
+.founder-gallery figure { margin: 0; overflow: hidden; border: 1px solid var(--line); border-radius: 3px; background: var(--bg-alt); }
+.founder-gallery img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.founder-gallery .gallery-row { display: grid; grid-template-columns: 3fr 2fr; gap: clamp(12px, 2vw, 24px); aspect-ratio: 2.96 / 1; }
+.founder-gallery .gallery-l img { object-position: 50% 45%; }
+.founder-gallery .gallery-r img { object-position: 50% 40%; }
+@media (max-width: 640px) {
+  .founder-gallery .gallery-row { grid-template-columns: 1fr; aspect-ratio: auto; }
+  .founder-gallery .gallery-l { aspect-ratio: 16 / 9; }
+  .founder-gallery .gallery-r { aspect-ratio: 4 / 3; }
+}
+
+/* ===== Mobile usability: leggibilità e area di tocco (audit Semrush) =====
+   Testo minimo ~14px, bersagli di tocco >= 48px e ben distanziati.
+   Solo sotto i 780px: il desktop non cambia. */
+@media (max-width: 780px) {
+  .nav-toggle { font-size: 0.875rem; min-height: 48px; min-width: 48px; padding: 10px 16px; }
+  .nav-links a { font-size: 0.9rem; }
+  .lang-current { font-size: 0.85rem; min-height: 48px; }
+  .lang-switch::before { font-size: 0.75rem; }
+  .lang-dropdown a { font-size: 0.9rem; min-height: 48px; }
+  .eyebrow { font-size: 0.85rem; }
+  label { font-size: 0.85rem; }
+  .btn {
+    font-size: 0.85rem;
+    min-height: 48px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .site-footer .footer-links a { display: inline-block; padding: 14px 10px; margin: 0; }
+  .whatsapp-float { gap: 12px; }
+  .whatsapp-float-link { min-height: 48px; font-size: 0.875rem; padding: 12px 18px; }
+  #orion-cookie-banner .orion-cookie-btn { min-height: 48px; font-size: 0.8rem; padding: 0.6em 1.4em; }
+}

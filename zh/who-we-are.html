@@ -2,12 +2,36 @@
 <html lang="zh-CN">
 <head>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-S1Q6BFKL8L"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied', 'ad_user_data': 'denied', 'ad_personalization': 'denied', 'analytics_storage': 'denied'
+  });
+  try {
+    if (localStorage.getItem('orion_consent') === 'granted') {
+      gtag('consent', 'update', {
+        'ad_storage': 'granted', 'ad_user_data': 'granted', 'ad_personalization': 'granted', 'analytics_storage': 'granted'
+      });
+    }
+  } catch(e){}
   gtag('js', new Date());
   gtag('config', 'G-S1Q6BFKL8L');
+  window.addEventListener('load', function(){
+    var s=document.createElement('script');s.async=true;
+    s.src='https://www.googletagmanager.com/gtag/js?id=G-S1Q6BFKL8L';
+    document.head.appendChild(s);
+  });
+  // Microsoft Clarity: caricato solo dopo consenso
+  window.orionLoadClarity = function(){
+    if (window.__orionClarity) return; window.__orionClarity = true;
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yqf6dvtz7y");
+  };
+  try { if (localStorage.getItem('orion_consent') === 'granted') { window.addEventListener('load', window.orionLoadClarity); } } catch(e){}
 </script>
 
 <meta charset="UTF-8">
@@ -37,7 +61,8 @@
 <link rel="alternate" hreflang="x-default" href="https://orionprivatewealthconsulting.com/who-we-are">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@700;800&display=swap"></noscript>
 <link rel="stylesheet" href="/css/style.css">
 <link rel="canonical" href="https://orionprivatewealthconsulting.com/zh/who-we-are">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Orion Private Wealth Consulting LLC", "url": "https://orionprivatewealthconsulting.com", "logo": "https://orionprivatewealthconsulting.com/images/logo-lockup.png", "areaServed": ["United Arab Emirates", "Switzerland", "France", "United States"], "sameAs": []}</script>
@@ -46,20 +71,20 @@
 <body>
 <header class="site-header">
   <div class="nav">
-    <a class="logo" href="/zh/"><img src="/images/logo-lockup.png" alt="Orion Private Wealth Consulting"></a>
+    <a class="logo" href="/zh/" title="Orion Private Wealth Consulting"><img src="/images/logo-lockup.png" alt="Orion Private Wealth Consulting"></a>
     <button class="nav-toggle" id="navToggle" aria-label="Menu">菜单</button>
     <ul class="nav-links" id="navLinks">
-      <li><a class="" href="/zh/">首页</a></li>
-<li><a class="active" href="/zh/who-we-are">关于我们</a></li>
-<li><a class="" href="/zh/services">服务项目</a></li>
-<li><a class="" href="/zh/markets">目标市场</a></li>
-<li><a class="" href="/zh/how-it-works">合作流程</a></li>
-<li><a class="" href="/zh/partners">合作伙伴</a></li>
-<li><a class="" href="/zh/faq">常见问题</a></li>
-<li><a class="" href="/zh/blog">洞察观点</a></li>
-<li><a class="" href="/zh/contact">联系我们</a></li>
+      <li><a class="" href="/zh/" title="首页">首页</a></li>
+<li><a class="active" href="/zh/who-we-are" title="关于我们">关于我们</a></li>
+<li><a class="" href="/zh/services" title="服务项目">服务项目</a></li>
+<li><a class="" href="/zh/markets" title="目标市场">目标市场</a></li>
+<li><a class="" href="/zh/how-it-works" title="合作流程">合作流程</a></li>
+<li><a class="" href="/zh/partners" title="合作伙伴">合作伙伴</a></li>
+<li><a class="" href="/zh/faq" title="常见问题">常见问题</a></li>
+<li><a class="" href="/zh/blog" title="洞察观点">洞察观点</a></li>
+<li><a class="" href="/zh/contact" title="联系我们">联系我们</a></li>
 
-    <li class="lang-item"><div class="lang-switch"><button class="lang-current" id="langToggle" type="button" aria-haspopup="true" aria-expanded="false"><img class="lang-flag" src="/images/flags/cn.svg" alt="ZH" width="20" height="10"> ZH <span class="lang-caret">▾</span></button><ul class="lang-dropdown" id="langDropdown"><li><a class="" href="/who-we-are"><img class="lang-flag" src="/images/flags/gb.svg" alt="EN" width="20" height="10"> English</a></li><li><a class="" href="/ru/who-we-are"><img class="lang-flag" src="/images/flags/ru.svg" alt="RU" width="20" height="10"> Русский</a></li><li><a class="" href="/uk/who-we-are"><img class="lang-flag" src="/images/flags/ua.svg" alt="UK" width="20" height="10"> Українська</a></li><li><a class="" href="/ar/who-we-are"><img class="lang-flag" src="/images/flags/ae.svg" alt="AR" width="20" height="10"> العربية</a></li><li><a class="lang-active" href="/zh/who-we-are"><img class="lang-flag" src="/images/flags/cn.svg" alt="ZH" width="20" height="10"> 中文</a></li><li><a class="" href="/de/who-we-are"><img class="lang-flag" src="/images/flags/de.svg" alt="DE" width="20" height="10"> Deutsch</a></li><li><a class="" href="/hi/who-we-are"><img class="lang-flag" src="/images/flags/in.svg" alt="HI" width="20" height="10"> हिन्दी</a></li><li><a class="" href="/fr/who-we-are"><img class="lang-flag" src="/images/flags/fr.svg" alt="FR" width="20" height="10"> Français</a></li><li><a class="" href="/he/who-we-are"><img class="lang-flag" src="/images/flags/il.svg" alt="HE" width="20" height="10"> עברית</a></li><li><a class="" href="/es/who-we-are"><img class="lang-flag" src="/images/flags/es.svg" alt="ES" width="20" height="10"> Español</a></li><li><a class="" href="/pt/who-we-are"><img class="lang-flag" src="/images/flags/pt.svg" alt="PT" width="20" height="10"> Portugu&ecirc;s</a></li><li><a class="" href="/ko/who-we-are"><img class="lang-flag" src="/images/flags/kr.svg" alt="KO" width="20" height="10"> 한국어</a></li><li><a class="" href="/ja/who-we-are"><img class="lang-flag" src="/images/flags/jp.svg" alt="JA" width="20" height="10"> 日本語</a></li></ul></div></li>
+    <li class="lang-item"><div class="lang-switch"><button class="lang-current" id="langToggle" type="button" aria-haspopup="true" aria-expanded="false"><img class="lang-flag" src="/images/flags/cn.svg" alt="ZH" width="20" height="10"> ZH <span class="lang-caret">▾</span></button><ul class="lang-dropdown" id="langDropdown"><li><a class="" href="/who-we-are" title="English"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/gb.svg" alt="EN" width="20" height="10"> English</a></li><li><a class="" href="/ru/who-we-are" title="Русский"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/ru.svg" alt="RU" width="20" height="10"> Русский</a></li><li><a class="" href="/uk/who-we-are" title="Українська"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/ua.svg" alt="UK" width="20" height="10"> Українська</a></li><li><a class="" href="/ar/who-we-are" title="العربية"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/ae.svg" alt="AR" width="20" height="10"> العربية</a></li><li><a class="lang-active" href="/zh/who-we-are" title="中文"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/cn.svg" alt="ZH" width="20" height="10"> 中文</a></li><li><a class="" href="/de/who-we-are" title="Deutsch"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/de.svg" alt="DE" width="20" height="10"> Deutsch</a></li><li><a class="" href="/hi/who-we-are" title="हिन्दी"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/in.svg" alt="HI" width="20" height="10"> हिन्दी</a></li><li><a class="" href="/fr/who-we-are" title="Français"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/fr.svg" alt="FR" width="20" height="10"> Français</a></li><li><a class="" href="/he/who-we-are" title="עברית"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/il.svg" alt="HE" width="20" height="10"> עברית</a></li><li><a class="" href="/es/who-we-are" title="Español"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/es.svg" alt="ES" width="20" height="10"> Español</a></li><li><a class="" href="/pt/who-we-are" title="Português"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/pt.svg" alt="PT" width="20" height="10"> Portugu&ecirc;s</a></li><li><a class="" href="/ko/who-we-are" title="한국어"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/kr.svg" alt="KO" width="20" height="10"> 한국어</a></li><li><a class="" href="/ja/who-we-are" title="日本語"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/jp.svg" alt="JA" width="20" height="10"> 日本語</a></li></ul></div></li>
 </ul>
   </div>
 </header>
@@ -73,6 +98,15 @@
   <div class="container" style="max-width:780px;">
     <p>汇尊诞生于一个简单却有力的信念：敢于梦想的人，理应拥有一位敢于兑现承诺的伙伴。我们不是传统意义上的咨询公司，而是一个建立在人脉、专业与审慎之上的私人网络——立于雄心与卓越的交汇点。</p>
     <p>如同千百年来指引航海者的猎户座星群，汇尊的存在，是为了引领客户抵达其最雄心勃勃的目标。每一次合作皆始于倾听，每一个方案皆为量身定制，每一个成果皆恪守诚信。</p>
+  </div>
+</section>
+
+<section class="founder-gallery">
+  <div class="container">
+    <div class="gallery-row">
+      <figure class="gallery-l"><img src="/images/founder-cern.jpg" alt="Giacomo Levita, Founder of Orion Private Wealth Consulting" width="1800" height="810" loading="lazy" decoding="async"></figure>
+      <figure class="gallery-r"><img src="/images/founder-greenhouse.jpg" alt="Giacomo Levita, Founder of Orion Private Wealth Consulting" width="1300" height="977" loading="lazy" decoding="async"></figure>
+    </div>
   </div>
 </section>
 
@@ -110,9 +144,9 @@
   <div class="container" style="max-width:720px; text-align:center;">
     <span class="eyebrow">理念</span>
     <p>在他人之前洞察格局，需要一种自律 &mdash; 早在接受第一份委托之前便已如此。</p>
-    <p>五十一年的岁月塑造了这种直觉：那些年里，静观资本、品味与地域如何相互交织，又是何等罕见地被正确解读。</p>
-    <p>六个领域，仅此而已。阿拉伯的沙漠。恩加丁的山峰。里维埃拉的海岸。标志着精心成就人生的名车与名表。以及那张让每一次引荐得以成真的、低调的关系网络。</p>
-    <p>二十四项跨境分析，支撑着Orion提出的每一项建议 &mdash; 并非因为数据越多越好，而是因为精准需要克制。</p>
+    <p>二十多年的物流经验与跨文化人脉，造就了这份直觉：资本、品味与地理如何相互牵动，又如何鲜少被正确解读。</p>
+    <p>三大市场，一张网络。阿拉伯的沙漠，恩加丁的山峰，里维埃拉的海岸。与之相伴的，是标记精心生活的名车与名表，以及让每一次引荐成为可能的低调人脉。</p>
+    <p>每一项建议都会结合司法辖区、交易对手与交易结构权衡——因为精准需要克制。</p>
     <p>Orion追求的不是数量，而是契合。</p>
   </div>
 </section>
@@ -122,8 +156,8 @@
     <p>以卓越与审慎，为全球客户提供服务。</p>
     <p>&copy; 2026 汇尊私人财富咨询有限责任公司。保留所有权利。</p>
     <div class="footer-links">
-      <a href="/zh/privacy">隐私政策</a>
-      <a href="/zh/terms">服务条款</a>
+      <a href="/zh/privacy" title="隐私政策">隐私政策</a>
+      <a href="/zh/terms" title="服务条款">服务条款</a>
     </div>
   </div>
 </footer>
@@ -132,7 +166,7 @@
     document.getElementById('navLinks').classList.toggle('open');
   });
 </script>
-<div class="whatsapp-float" role="complementary" aria-label="Contatti WhatsApp"><a class="whatsapp-float-link" href="https://wa.me/17865786373" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp USA +1 786 578 6373"><svg class="whatsapp-float-icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.004 2.667c-7.363 0-13.333 5.97-13.333 13.333 0 2.353.615 4.66 1.782 6.687L2.667 29.333l6.79-1.78a13.28 13.28 0 0 0 6.547 1.714h.006c7.362 0 13.333-5.97 13.333-13.333 0-3.56-1.387-6.907-3.906-9.427a13.24 13.24 0 0 0-9.433-3.907zm0 24.4h-.005a11.08 11.08 0 0 1-5.65-1.548l-.405-.24-4.03 1.057 1.076-3.93-.264-.404a11.06 11.06 0 0 1-1.7-5.902c0-6.13 4.99-11.12 11.12-11.12 2.97 0 5.76 1.157 7.86 3.258a11.04 11.04 0 0 1 3.257 7.865c0 6.13-4.99 11.12-11.12 11.12zm6.096-8.33c-.334-.167-1.977-.976-2.283-1.087-.306-.112-.53-.167-.753.166-.223.334-.865 1.087-1.06 1.31-.195.223-.39.25-.724.084-.334-.167-1.41-.52-2.687-1.658-.994-.886-1.665-1.98-1.86-2.313-.195-.334-.02-.514.147-.68.15-.15.334-.39.5-.585.167-.195.223-.334.334-.557.112-.223.056-.418-.028-.585-.084-.167-.753-1.813-1.03-2.482-.272-.652-.55-.564-.753-.575-.195-.01-.418-.012-.641-.012s-.585.084-.892.418c-.306.334-1.17 1.144-1.17 2.79 0 1.646 1.198 3.236 1.365 3.46.167.222 2.357 3.6 5.712 5.048.798.345 1.42.55 1.905.703.8.254 1.53.218 2.106.132.643-.096 1.977-.808 2.256-1.588.279-.78.279-1.45.195-1.588-.084-.14-.306-.223-.641-.39z"></path></svg><span class="whatsapp-float-label">USA</span></a><a class="whatsapp-float-link" href="https://wa.me/393406488167" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp EU +39 340 648 8167"><svg class="whatsapp-float-icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.004 2.667c-7.363 0-13.333 5.97-13.333 13.333 0 2.353.615 4.66 1.782 6.687L2.667 29.333l6.79-1.78a13.28 13.28 0 0 0 6.547 1.714h.006c7.362 0 13.333-5.97 13.333-13.333 0-3.56-1.387-6.907-3.906-9.427a13.24 13.24 0 0 0-9.433-3.907zm0 24.4h-.005a11.08 11.08 0 0 1-5.65-1.548l-.405-.24-4.03 1.057 1.076-3.93-.264-.404a11.06 11.06 0 0 1-1.7-5.902c0-6.13 4.99-11.12 11.12-11.12 2.97 0 5.76 1.157 7.86 3.258a11.04 11.04 0 0 1 3.257 7.865c0 6.13-4.99 11.12-11.12 11.12zm6.096-8.33c-.334-.167-1.977-.976-2.283-1.087-.306-.112-.53-.167-.753.166-.223.334-.865 1.087-1.06 1.31-.195.223-.39.25-.724.084-.334-.167-1.41-.52-2.687-1.658-.994-.886-1.665-1.98-1.86-2.313-.195-.334-.02-.514.147-.68.15-.15.334-.39.5-.585.167-.195.223-.334.334-.557.112-.223.056-.418-.028-.585-.084-.167-.753-1.813-1.03-2.482-.272-.652-.55-.564-.753-.575-.195-.01-.418-.012-.641-.012s-.585.084-.892.418c-.306.334-1.17 1.144-1.17 2.79 0 1.646 1.198 3.236 1.365 3.46.167.222 2.357 3.6 5.712 5.048.798.345 1.42.55 1.905.703.8.254 1.53.218 2.106.132.643-.096 1.977-.808 2.256-1.588.279-.78.279-1.45.195-1.588-.084-.14-.306-.223-.641-.39z"></path></svg><span class="whatsapp-float-label">EU</span></a></div>
+<div class="whatsapp-float" role="complementary" aria-label="Contatti WhatsApp"><a class="whatsapp-float-link" href="https://wa.me/17865786373" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp USA +1 786 578 6373" title="WhatsApp USA +1 786 578 6373"><svg class="whatsapp-float-icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.004 2.667c-7.363 0-13.333 5.97-13.333 13.333 0 2.353.615 4.66 1.782 6.687L2.667 29.333l6.79-1.78a13.28 13.28 0 0 0 6.547 1.714h.006c7.362 0 13.333-5.97 13.333-13.333 0-3.56-1.387-6.907-3.906-9.427a13.24 13.24 0 0 0-9.433-3.907zm0 24.4h-.005a11.08 11.08 0 0 1-5.65-1.548l-.405-.24-4.03 1.057 1.076-3.93-.264-.404a11.06 11.06 0 0 1-1.7-5.902c0-6.13 4.99-11.12 11.12-11.12 2.97 0 5.76 1.157 7.86 3.258a11.04 11.04 0 0 1 3.257 7.865c0 6.13-4.99 11.12-11.12 11.12zm6.096-8.33c-.334-.167-1.977-.976-2.283-1.087-.306-.112-.53-.167-.753.166-.223.334-.865 1.087-1.06 1.31-.195.223-.39.25-.724.084-.334-.167-1.41-.52-2.687-1.658-.994-.886-1.665-1.98-1.86-2.313-.195-.334-.02-.514.147-.68.15-.15.334-.39.5-.585.167-.195.223-.334.334-.557.112-.223.056-.418-.028-.585-.084-.167-.753-1.813-1.03-2.482-.272-.652-.55-.564-.753-.575-.195-.01-.418-.012-.641-.012s-.585.084-.892.418c-.306.334-1.17 1.144-1.17 2.79 0 1.646 1.198 3.236 1.365 3.46.167.222 2.357 3.6 5.712 5.048.798.345 1.42.55 1.905.703.8.254 1.53.218 2.106.132.643-.096 1.977-.808 2.256-1.588.279-.78.279-1.45.195-1.588-.084-.14-.306-.223-.641-.39z"></path></svg><span class="whatsapp-float-label">USA</span></a><a class="whatsapp-float-link" href="https://wa.me/393406488167" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp EU +39 340 648 8167" title="WhatsApp EU +39 340 648 8167"><svg class="whatsapp-float-icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.004 2.667c-7.363 0-13.333 5.97-13.333 13.333 0 2.353.615 4.66 1.782 6.687L2.667 29.333l6.79-1.78a13.28 13.28 0 0 0 6.547 1.714h.006c7.362 0 13.333-5.97 13.333-13.333 0-3.56-1.387-6.907-3.906-9.427a13.24 13.24 0 0 0-9.433-3.907zm0 24.4h-.005a11.08 11.08 0 0 1-5.65-1.548l-.405-.24-4.03 1.057 1.076-3.93-.264-.404a11.06 11.06 0 0 1-1.7-5.902c0-6.13 4.99-11.12 11.12-11.12 2.97 0 5.76 1.157 7.86 3.258a11.04 11.04 0 0 1 3.257 7.865c0 6.13-4.99 11.12-11.12 11.12zm6.096-8.33c-.334-.167-1.977-.976-2.283-1.087-.306-.112-.53-.167-.753.166-.223.334-.865 1.087-1.06 1.31-.195.223-.39.25-.724.084-.334-.167-1.41-.52-2.687-1.658-.994-.886-1.665-1.98-1.86-2.313-.195-.334-.02-.514.147-.68.15-.15.334-.39.5-.585.167-.195.223-.334.334-.557.112-.223.056-.418-.028-.585-.084-.167-.753-1.813-1.03-2.482-.272-.652-.55-.564-.753-.575-.195-.01-.418-.012-.641-.012s-.585.084-.892.418c-.306.334-1.17 1.144-1.17 2.79 0 1.646 1.198 3.236 1.365 3.46.167.222 2.357 3.6 5.712 5.048.798.345 1.42.55 1.905.703.8.254 1.53.218 2.106.132.643-.096 1.977-.808 2.256-1.588.279-.78.279-1.45.195-1.588-.084-.14-.306-.223-.641-.39z"></path></svg><span class="whatsapp-float-label">EU</span></a></div>
 <script>
   (function(){
     var btn = document.getElementById('langToggle');
@@ -186,6 +220,7 @@
       });
     }
     try { localStorage.setItem('orion_consent', v); } catch(e){}
+    if (granted && window.orionLoadClarity) { window.orionLoadClarity(); }
     document.getElementById('orion-cookie-banner').style.display = 'none';
   }
   var stored;

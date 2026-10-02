@@ -2,12 +2,36 @@
 <html lang="pt">
 <head>
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-S1Q6BFKL8L"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
+  gtag('consent', 'default', {
+    'ad_storage': 'denied', 'ad_user_data': 'denied', 'ad_personalization': 'denied', 'analytics_storage': 'denied'
+  });
+  try {
+    if (localStorage.getItem('orion_consent') === 'granted') {
+      gtag('consent', 'update', {
+        'ad_storage': 'granted', 'ad_user_data': 'granted', 'ad_personalization': 'granted', 'analytics_storage': 'granted'
+      });
+    }
+  } catch(e){}
   gtag('js', new Date());
   gtag('config', 'G-S1Q6BFKL8L');
+  window.addEventListener('load', function(){
+    var s=document.createElement('script');s.async=true;
+    s.src='https://www.googletagmanager.com/gtag/js?id=G-S1Q6BFKL8L';
+    document.head.appendChild(s);
+  });
+  // Microsoft Clarity: caricato solo dopo consenso
+  window.orionLoadClarity = function(){
+    if (window.__orionClarity) return; window.__orionClarity = true;
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "yqf6dvtz7y");
+  };
+  try { if (localStorage.getItem('orion_consent') === 'granted') { window.addEventListener('load', window.orionLoadClarity); } } catch(e){}
 </script>
 
 <meta charset="UTF-8">
@@ -23,7 +47,8 @@
 <meta property="og:locale" content="pt_PT">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@700;800&display=swap"></noscript>
 <link rel="stylesheet" href="/css/style.css">
 <link rel="canonical" href="https://orionprivatewealthconsulting.com/pt/contact">
 <link rel="alternate" hreflang="en" href="https://orionprivatewealthconsulting.com/contact">
@@ -46,19 +71,19 @@
 <body>
 <header class="site-header">
   <div class="nav">
-    <a class="logo" href="/pt/"><img src="/images/logo-lockup.png" alt="Orion Private Wealth Consulting"></a>
+    <a class="logo" href="/pt/" title="Orion Private Wealth Consulting"><img src="/images/logo-lockup.png" alt="Orion Private Wealth Consulting"></a>
     <button class="nav-toggle" id="navToggle" aria-label="Menu">Menu</button>
     <ul class="nav-links" id="navLinks">
-<li><a class="" href="/pt/">Início</a></li>
-<li><a class="" href="/pt/who-we-are">Quem Somos</a></li>
-<li><a class="" href="/pt/services">Serviços</a></li>
-<li><a class="" href="/pt/markets">Mercados</a></li>
-<li><a class="" href="/pt/how-it-works">Como Funciona</a></li>
-<li><a class="" href="/pt/partners">Parceiros</a></li>
-<li><a class="" href="/pt/faq">FAQ</a></li>
-<li><a class="" href="/pt/blog">Blog</a></li>
-<li><a class="active" href="/pt/contact">Contato</a></li>
-<li class="lang-item"><div class="lang-switch"><button class="lang-current" id="langToggle" type="button" aria-haspopup="true" aria-expanded="false"><img class="lang-flag" src="/images/flags/pt.svg" alt="PT" width="20" height="10"> PT <span class="lang-caret">&#9662;</span></button><ul class="lang-dropdown" id="langDropdown"><li><a class="" href="/contact"><img class="lang-flag" src="/images/flags/gb.svg" alt="EN" width="20" height="10"> English</a></li><li><a class="" href="/ru/contact"><img class="lang-flag" src="/images/flags/ru.svg" alt="RU" width="20" height="10"> Русский</a></li><li><a class="" href="/uk/contact"><img class="lang-flag" src="/images/flags/ua.svg" alt="UK" width="20" height="10"> Українська</a></li><li><a class="" href="/ar/contact"><img class="lang-flag" src="/images/flags/ae.svg" alt="AR" width="20" height="10"> العربية</a></li><li><a class="" href="/zh/contact"><img class="lang-flag" src="/images/flags/cn.svg" alt="ZH" width="20" height="10"> 中文</a></li><li><a class="" href="/de/contact"><img class="lang-flag" src="/images/flags/de.svg" alt="DE" width="20" height="10"> Deutsch</a></li><li><a class="" href="/hi/contact"><img class="lang-flag" src="/images/flags/in.svg" alt="HI" width="20" height="10"> हिन्दी</a></li><li><a class="" href="/fr/contact"><img class="lang-flag" src="/images/flags/fr.svg" alt="FR" width="20" height="10"> Français</a></li><li><a class="" href="/he/contact"><img class="lang-flag" src="/images/flags/il.svg" alt="HE" width="20" height="10"> עברית</a></li><li><a class="" href="/es/contact"><img class="lang-flag" src="/images/flags/es.svg" alt="ES" width="20" height="10"> Español</a></li><li><a class="lang-active" href="/pt/contact"><img class="lang-flag" src="/images/flags/pt.svg" alt="PT" width="20" height="10"> Portugu&ecirc;s</a></li><li><a class="" href="/ko/contact"><img class="lang-flag" src="/images/flags/kr.svg" alt="KO" width="20" height="10"> 한국어</a></li><li><a class="" href="/ja/contact"><img class="lang-flag" src="/images/flags/jp.svg" alt="JA" width="20" height="10"> 日本語</a></li></ul></div></li>
+<li><a class="" href="/pt/" title="Início">Início</a></li>
+<li><a class="" href="/pt/who-we-are" title="Quem Somos">Quem Somos</a></li>
+<li><a class="" href="/pt/services" title="Serviços">Serviços</a></li>
+<li><a class="" href="/pt/markets" title="Mercados">Mercados</a></li>
+<li><a class="" href="/pt/how-it-works" title="Como Funciona">Como Funciona</a></li>
+<li><a class="" href="/pt/partners" title="Parceiros">Parceiros</a></li>
+<li><a class="" href="/pt/faq" title="FAQ">FAQ</a></li>
+<li><a class="" href="/pt/blog" title="Blog">Blog</a></li>
+<li><a class="active" href="/pt/contact" title="Contato">Contato</a></li>
+<li class="lang-item"><div class="lang-switch"><button class="lang-current" id="langToggle" type="button" aria-haspopup="true" aria-expanded="false"><img class="lang-flag" src="/images/flags/pt.svg" alt="PT" width="20" height="10"> PT <span class="lang-caret">&#9662;</span></button><ul class="lang-dropdown" id="langDropdown"><li><a class="" href="/contact" title="English"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/gb.svg" alt="EN" width="20" height="10"> English</a></li><li><a class="" href="/ru/contact" title="Русский"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/ru.svg" alt="RU" width="20" height="10"> Русский</a></li><li><a class="" href="/uk/contact" title="Українська"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/ua.svg" alt="UK" width="20" height="10"> Українська</a></li><li><a class="" href="/ar/contact" title="العربية"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/ae.svg" alt="AR" width="20" height="10"> العربية</a></li><li><a class="" href="/zh/contact" title="中文"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/cn.svg" alt="ZH" width="20" height="10"> 中文</a></li><li><a class="" href="/de/contact" title="Deutsch"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/de.svg" alt="DE" width="20" height="10"> Deutsch</a></li><li><a class="" href="/hi/contact" title="हिन्दी"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/in.svg" alt="HI" width="20" height="10"> हिन्दी</a></li><li><a class="" href="/fr/contact" title="Français"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/fr.svg" alt="FR" width="20" height="10"> Français</a></li><li><a class="" href="/he/contact" title="עברית"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/il.svg" alt="HE" width="20" height="10"> עברית</a></li><li><a class="" href="/es/contact" title="Español"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/es.svg" alt="ES" width="20" height="10"> Español</a></li><li><a class="lang-active" href="/pt/contact" title="Português"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/pt.svg" alt="PT" width="20" height="10"> Portugu&ecirc;s</a></li><li><a class="" href="/ko/contact" title="한국어"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/kr.svg" alt="KO" width="20" height="10"> 한국어</a></li><li><a class="" href="/ja/contact" title="日本語"><img class="lang-flag" loading="lazy" decoding="async" src="/images/flags/jp.svg" alt="JA" width="20" height="10"> 日本語</a></li></ul></div></li>
     </ul>
   </div>
 </header>
@@ -101,10 +126,10 @@
         <option>Outro</option>
       </select>
 
-      <label for="message">Conte-nos sobre o seu sonho</label>
+      <label for="message">Diga-nos o que procura</label>
       <textarea id="message" name="message" required></textarea>
 
-      <p class="privacy-note">Todas as consultas s&atilde;o tratadas com absoluta discri&ccedil;&atilde;o. As suas informa&ccedil;&otilde;es nunca ser&atilde;o partilhadas com terceiros.</p>
+      <p class="privacy-note">Todas as consultas s&atilde;o tratadas com absoluta discri&ccedil;&atilde;o. As suas informa&ccedil;&otilde;es nunca ser&atilde;o partilhadas com terceiros. O Giacomo responde pessoalmente a cada pedido, no prazo de 24 horas, em inglês ou no seu idioma.</p>
 
       <div class="g-recaptcha-wrap" data-netlify-recaptcha="true"></div>
 
@@ -115,10 +140,10 @@
     </form>
 
     <div class="contact-direct">
-      <p><a href="mailto:giacomo@orionprivatewealthconsulting.com">giacomo@orionprivatewealthconsulting.com</a></p>
-      <p>WhatsApp EUA: <a href="https://wa.me/17865786373">+1 786 578 6373</a></p>
-      <p>WhatsApp UE: <a href="https://wa.me/393406488167">+39 340 648 8167</a></p>
-      <p><a href="https://www.orionprivatewealthconsulting.com">www.orionprivatewealthconsulting.com</a></p>
+      <p><a href="mailto:giacomo@orionprivatewealthconsulting.com" title="giacomo@orionprivatewealthconsulting.com">giacomo@orionprivatewealthconsulting.com</a></p>
+      <p>WhatsApp EUA: <a href="https://wa.me/17865786373" title="+1 786 578 6373">+1 786 578 6373</a></p>
+      <p>WhatsApp UE: <a href="https://wa.me/393406488167" title="+39 340 648 8167">+39 340 648 8167</a></p>
+      <p><a href="https://www.orionprivatewealthconsulting.com" title="www.orionprivatewealthconsulting.com">www.orionprivatewealthconsulting.com</a></p>
       <p>1000 Brickell Avenue Suite #715 PMB 151 Miami FL 33131 USA</p>
     </div>
   </div>
@@ -129,8 +154,8 @@
     <p>Ao servi&ccedil;o de uma clientela internacional, com discri&ccedil;&atilde;o e exceli&ecirc;ncia.</p>
     <p>&copy; 2026 Orion Private Wealth Consulting LLC. Todos os direitos reservados.</p>
     <div class="footer-links">
-      <a href="/pt/privacy">Pol&iacute;tica de Privacidade</a>
-      <a href="/pt/terms">Termos de Servi&ccedil;o</a>
+      <a href="/pt/privacy" title="Política de Privacidade">Pol&iacute;tica de Privacidade</a>
+      <a href="/pt/terms" title="Termos de Serviço">Termos de Servi&ccedil;o</a>
     </div>
   </div>
 </footer>
@@ -139,7 +164,7 @@
     document.getElementById('navLinks').classList.toggle('open');
   });
 </script>
-<div class="whatsapp-float" role="complementary" aria-label="Contato WhatsApp"><a class="whatsapp-float-link" href="https://wa.me/17865786373" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp USA +1 786 578 6373"><svg class="whatsapp-float-icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.004 2.667c-7.363 0-13.333 5.97-13.333 13.333 0 2.353.615 4.66 1.782 6.687L2.667 29.333l6.79-1.78a13.28 13.28 0 0 0 6.547 1.714h.006c7.362 0 13.333-5.97 13.333-13.333 0-3.56-1.387-6.907-3.906-9.427a13.24 13.24 0 0 0-9.433-3.907zm0 24.4h-.005a11.08 11.08 0 0 1-5.65-1.548l-.405-.24-4.03 1.057 1.076-3.93-.264-.404a11.06 11.06 0 0 1-1.7-5.902c0-6.13 4.99-11.12 11.12-11.12 2.97 0 5.76 1.157 7.86 3.258a11.04 11.04 0 0 1 3.257 7.865c0 6.13-4.99 11.12-11.12 11.12zm6.096-8.33c-.334-.167-1.977-.976-2.283-1.087-.306-.112-.53-.167-.753.166-.223.334-.865 1.087-1.06 1.31-.195.223-.39.25-.724.084-.334-.167-1.41-.52-2.687-1.658-.994-.886-1.665-1.98-1.86-2.313-.195-.334-.02-.514.147-.68.15-.15.334-.39.5-.585.167-.195.223-.334.334-.557.112-.223.056-.418-.028-.585-.084-.167-.753-1.813-1.03-2.482-.272-.652-.55-.564-.753-.575-.195-.01-.418-.012-.641-.012s-.585.084-.892.418c-.306.334-1.17 1.144-1.17 2.79 0 1.646 1.198 3.236 1.365 3.46.167.222 2.357 3.6 5.712 5.048.798.345 1.42.55 1.905.703.8.254 1.53.218 2.106.132.643-.096 1.977-.808 2.256-1.588.279-.78.279-1.45.195-1.588-.084-.14-.306-.223-.641-.39z"></path></svg><span class="whatsapp-float-label">USA</span></a><a class="whatsapp-float-link" href="https://wa.me/393406488167" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp EU +39 340 648 8167"><svg class="whatsapp-float-icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.004 2.667c-7.363 0-13.333 5.97-13.333 13.333 0 2.353.615 4.66 1.782 6.687L2.667 29.333l6.79-1.78a13.28 13.28 0 0 0 6.547 1.714h.006c7.362 0 13.333-5.97 13.333-13.333 0-3.56-1.387-6.907-3.906-9.427a13.24 13.24 0 0 0-9.433-3.907zm0 24.4h-.005a11.08 11.08 0 0 1-5.65-1.548l-.405-.24-4.03 1.057 1.076-3.93-.264-.404a11.06 11.06 0 0 1-1.7-5.902c0-6.13 4.99-11.12 11.12-11.12 2.97 0 5.76 1.157 7.86 3.258a11.04 11.04 0 0 1 3.257 7.865c0 6.13-4.99 11.12-11.12 11.12zm6.096-8.33c-.334-.167-1.977-.976-2.283-1.087-.306-.112-.53-.167-.753.166-.223.334-.865 1.087-1.06 1.31-.195.223-.39.25-.724.084-.334-.167-1.41-.52-2.687-1.658-.994-.886-1.665-1.98-1.86-2.313-.195-.334-.02-.514.147-.68.15-.15.334-.39.5-.585.167-.195.223-.334.334-.557.112-.223.056-.418-.028-.585-.084-.167-.753-1.813-1.03-2.482-.272-.652-.55-.564-.753-.575-.195-.01-.418-.012-.641-.012s-.585.084-.892.418c-.306.334-1.17 1.144-1.17 2.79 0 1.646 1.198 3.236 1.365 3.46.167.222 2.357 3.6 5.712 5.048.798.345 1.42.55 1.905.703.8.254 1.53.218 2.106.132.643-.096 1.977-.808 2.256-1.588.279-.78.279-1.45.195-1.588-.084-.14-.306-.223-.641-.39z"></path></svg><span class="whatsapp-float-label">EU</span></a></div>
+<div class="whatsapp-float" role="complementary" aria-label="Contato WhatsApp"><a class="whatsapp-float-link" href="https://wa.me/17865786373" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp USA +1 786 578 6373" title="WhatsApp USA +1 786 578 6373"><svg class="whatsapp-float-icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.004 2.667c-7.363 0-13.333 5.97-13.333 13.333 0 2.353.615 4.66 1.782 6.687L2.667 29.333l6.79-1.78a13.28 13.28 0 0 0 6.547 1.714h.006c7.362 0 13.333-5.97 13.333-13.333 0-3.56-1.387-6.907-3.906-9.427a13.24 13.24 0 0 0-9.433-3.907zm0 24.4h-.005a11.08 11.08 0 0 1-5.65-1.548l-.405-.24-4.03 1.057 1.076-3.93-.264-.404a11.06 11.06 0 0 1-1.7-5.902c0-6.13 4.99-11.12 11.12-11.12 2.97 0 5.76 1.157 7.86 3.258a11.04 11.04 0 0 1 3.257 7.865c0 6.13-4.99 11.12-11.12 11.12zm6.096-8.33c-.334-.167-1.977-.976-2.283-1.087-.306-.112-.53-.167-.753.166-.223.334-.865 1.087-1.06 1.31-.195.223-.39.25-.724.084-.334-.167-1.41-.52-2.687-1.658-.994-.886-1.665-1.98-1.86-2.313-.195-.334-.02-.514.147-.68.15-.15.334-.39.5-.585.167-.195.223-.334.334-.557.112-.223.056-.418-.028-.585-.084-.167-.753-1.813-1.03-2.482-.272-.652-.55-.564-.753-.575-.195-.01-.418-.012-.641-.012s-.585.084-.892.418c-.306.334-1.17 1.144-1.17 2.79 0 1.646 1.198 3.236 1.365 3.46.167.222 2.357 3.6 5.712 5.048.798.345 1.42.55 1.905.703.8.254 1.53.218 2.106.132.643-.096 1.977-.808 2.256-1.588.279-.78.279-1.45.195-1.588-.084-.14-.306-.223-.641-.39z"></path></svg><span class="whatsapp-float-label">USA</span></a><a class="whatsapp-float-link" href="https://wa.me/393406488167" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp EU +39 340 648 8167" title="WhatsApp EU +39 340 648 8167"><svg class="whatsapp-float-icon" viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.004 2.667c-7.363 0-13.333 5.97-13.333 13.333 0 2.353.615 4.66 1.782 6.687L2.667 29.333l6.79-1.78a13.28 13.28 0 0 0 6.547 1.714h.006c7.362 0 13.333-5.97 13.333-13.333 0-3.56-1.387-6.907-3.906-9.427a13.24 13.24 0 0 0-9.433-3.907zm0 24.4h-.005a11.08 11.08 0 0 1-5.65-1.548l-.405-.24-4.03 1.057 1.076-3.93-.264-.404a11.06 11.06 0 0 1-1.7-5.902c0-6.13 4.99-11.12 11.12-11.12 2.97 0 5.76 1.157 7.86 3.258a11.04 11.04 0 0 1 3.257 7.865c0 6.13-4.99 11.12-11.12 11.12zm6.096-8.33c-.334-.167-1.977-.976-2.283-1.087-.306-.112-.53-.167-.753.166-.223.334-.865 1.087-1.06 1.31-.195.223-.39.25-.724.084-.334-.167-1.41-.52-2.687-1.658-.994-.886-1.665-1.98-1.86-2.313-.195-.334-.02-.514.147-.68.15-.15.334-.39.5-.585.167-.195.223-.334.334-.557.112-.223.056-.418-.028-.585-.084-.167-.753-1.813-1.03-2.482-.272-.652-.55-.564-.753-.575-.195-.01-.418-.012-.641-.012s-.585.084-.892.418c-.306.334-1.17 1.144-1.17 2.79 0 1.646 1.198 3.236 1.365 3.46.167.222 2.357 3.6 5.712 5.048.798.345 1.42.55 1.905.703.8.254 1.53.218 2.106.132.643-.096 1.977-.808 2.256-1.588.279-.78.279-1.45.195-1.588-.084-.14-.306-.223-.641-.39z"></path></svg><span class="whatsapp-float-label">EU</span></a></div>
 <script>
   (function(){
     var btn = document.getElementById('langToggle');
@@ -194,6 +219,7 @@
       });
     }
     try { localStorage.setItem('orion_consent', v); } catch(e){}
+    if (granted && window.orionLoadClarity) { window.orionLoadClarity(); }
     document.getElementById('orion-cookie-banner').style.display = 'none';
   }
   var stored;
