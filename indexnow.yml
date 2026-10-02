@@ -1,4 +1,4 @@
-name: IndexNow
+name: .github/workflows/indexnow.yml
 
 on:
   push:
