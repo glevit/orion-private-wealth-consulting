@@ -1,1 +1,39 @@
+name: IndexNow
 
+on:
+  push:
+    branches: [main]
+    paths: ["**.html"]
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "all = submit the whole sitemap, changed = last commit only"
+        default: all
+        type: choice
+        options: [all, changed]
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Wait for Netlify deploy
+        run: sleep 120
+      - name: Submit to IndexNow
+        env:
+          # PUBLISH_DIR: public    # uncomment if the HTML files live in a subfolder
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+          MODE: ${{ github.event.inputs.mode || 'changed' }}
+        run: |
+          if [ "$MODE" = "all" ]; then
+            node scripts/indexnow.mjs --all
+          else
+            BASE="${BEFORE:-0000000000000000000000000000000000000000}"
+            node scripts/indexnow.mjs --changed "$BASE" "$AFTER"
+          fi
