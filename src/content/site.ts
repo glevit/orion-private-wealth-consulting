@@ -21,7 +21,7 @@ export const navLinks = [
 export const languages = [
   ["en", "English", "gb"], ["ru", "Русский", "ru"], ["uk", "Українська", "ua"], ["ar", "العربية", "ae"],
   ["zh", "中文", "cn"], ["de", "Deutsch", "de"], ["hi", "हिन्दी", "in"], ["fr", "Français", "fr"],
-  ["he", "עברית", "il"], ["es", "Español", "es"], ["pt", "Português", "pt"], ["ko", "한국어", "kr"], ["ja", "日本語", "jp"],
+  ["he", "עברית", "il"], ["es", "Español", "es"], ["pt", "Português", "pt"], ["ko", "한국어", "kr"], ["ja", "日本語", "jp"], ["it", "Italiano", "it"],
 ] as const;
 // The 12 translated sites live on the same domain (/ru/, /de/ ...). /markets/dubai has no translation.
 export function localizedUrl(code: string, pathname: string) {
