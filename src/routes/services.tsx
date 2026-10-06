@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { CtaBand, PageHero, TextLink } from "@/components/site/parts";
+import { CtaBand, PageHero, PhotoGallery, TextLink } from "@/components/site/parts";
 import { seo } from "@/content/site";
 import estate from "@/assets/orion-estate.jpg";
 import car from "@/assets/orion-car.jpg";
@@ -16,7 +16,7 @@ const items = [
     copy: "Whether you are seeking a prestigious residence overlooking the Palm Jumeirah, a private chalet in the Engadina valley, or a villa on the shores of the French Riviera, Orion provides exclusive access to properties that rarely reach the open market.",
     list: ["Off-market property sourcing", "Price negotiation and due diligence", "Coordination with local legal and financial advisors", "End-to-end transaction management"],
     foot: "Markets: Dubai & UAE • Engadina, Switzerland • Côte d’Azur, France" },
-  { id: "automobiles", eyebrow: "Luxury Automobiles", title: "The rarest cars. The most advantageous conditions.", img: car, alt: "Silver collector’s sports car in a studio",
+  { id: "automobiles", gallery: [["/images/auto-01-huracan-sterrato.jpg", "Lamborghini Huracán Sterrato sourced through Orion's private network"], ["/images/auto-02-lancia-delta.jpg", "Classic rally-inspired collector car"], ["/images/auto-03-diablo.jpg", "Lamborghini Diablo, a landmark collector supercar"], ["/images/auto-05-ferrari-275.jpg", "Vintage Ferrari 275 GTB, an icon of automotive history"], ["/images/auto-06-huracan-sto.jpg", "Lamborghini Huracán STO, a track-focused limited edition"], ["/images/auto-04-beetle-ice.jpg", "Classic car at a winter driving event in the Swiss Alps"]], eyebrow: "Luxury Automobiles", title: "The rarest cars. The most advantageous conditions.", img: car, alt: "Silver collector’s sports car in a studio",
     copy: "From limited edition supercars to classic collectibles, Orion sources the vehicles that define automotive excellence. We leverage our global network of private dealers, collectors, and auction houses to find the exact vehicle you are looking for — at conditions you will not find elsewhere.",
     list: ["Private sourcing of rare and limited edition vehicles", "Condition verification and independent inspection", "Import and logistics coordination", "Price and terms negotiation"] },
   { id: "timepieces", eyebrow: "Luxury Timepieces", title: "Time is the ultimate luxury. Wear it accordingly.", img: watch, alt: "Fine mechanical wristwatch on dark stone",
@@ -43,6 +43,7 @@ function Services() {
               {it.id === "real-estate" && <TextLink to="/markets">Explore our markets</TextLink>}
             </div>
           </div>
+          {"gallery" in it && it.gallery && <PhotoGallery photos={it.gallery as [string, string][]} />}
         </section>
       ))}
       <CtaBand />

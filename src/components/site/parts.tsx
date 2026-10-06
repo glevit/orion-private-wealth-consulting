@@ -41,3 +41,11 @@ export function Prose({ blocks, legal = false }: { blocks: Block[]; legal?: bool
     </div>
   );
 }
+
+export function PhotoGallery({ photos }: { photos: [string, string][] }) {
+  return (
+    <div className="content-width photo-gallery">
+      {photos.map(([src, alt]) => <img key={src} src={src} alt={alt} width={800} height={600} loading="lazy" />)}
+    </div>
+  );
+}
