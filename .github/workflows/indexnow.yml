@@ -26,7 +26,7 @@ jobs:
         run: sleep 120
       - name: Submit to IndexNow
         env:
-          # PUBLISH_DIR: public    # uncomment if the HTML files live in a subfolder
+          PUBLISH_DIR: public    # HTML of the translated sites lives here; uncomment if the HTML files live in a subfolder
           BEFORE: ${{ github.event.before }}
           AFTER: ${{ github.sha }}
           MODE: ${{ github.event.inputs.mode || 'changed' }}

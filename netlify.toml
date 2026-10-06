@@ -1,3 +1,11 @@
+# Build: the site is prerendered to static HTML (TanStack Start), published from .output/public.
+[build]
+  command = "npm install --no-audit --no-fund && npm run build"
+  publish = ".output/public"
+
+[build.environment]
+  NODE_VERSION = "22"
+
 # Redirect .html URLs to their clean canonical equivalents (301, permanent).
 # Consolidates link equity onto the URL declared in <link rel="canonical">
 # and in sitemap.xml, avoiding duplicate-content dilution.
@@ -27,3 +35,8 @@
   for = "/js/*"
   [headers.values]
     Cache-Control = "public, max-age=86400, stale-while-revalidate=604800"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
