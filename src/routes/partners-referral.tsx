@@ -18,7 +18,7 @@ function Referral() {
             <p className="section-eyebrow">Who We’re Looking For</p>
             <p className="editorial-copy">Private bankers, family offices, lawyers, and tax or residency/golden-visa advisors who, in the ordinary course of their work, meet people interested in luxury real estate, collectible automobiles, or rare timepieces.</p>
             <p className="section-eyebrow" style={{ marginTop: 40 }}>How It Works</p>
-            <ul className="check-list">
+            <ul className="check-list ticks">
               <li><strong>Introduce your contact</strong> — even a brief email or WhatsApp introduction is enough to start.</li>
               <li><strong>We manage the relationship</strong> with absolute discretion — your name stays as protected as your client’s.</li>
               <li>If it leads to <strong>a transaction</strong>, we recognize your introduction with compensation.</li>

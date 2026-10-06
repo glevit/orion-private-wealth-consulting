@@ -18,7 +18,7 @@ function Asset() {
             <p className="section-eyebrow">Who We’re Looking For</p>
             <p className="editorial-copy">Real estate developers, dealers in collectible automobiles, and dealers or auction houses specializing in fine watches, based in Dubai, Switzerland, or the French Riviera.</p>
             <p className="section-eyebrow" style={{ marginTop: 40 }}>How It Works</p>
-            <ul className="check-list">
+            <ul className="check-list ticks">
               <li><strong>Share your inventory</strong> or upcoming opportunities with us, ideally before they reach the open market.</li>
               <li>We introduce them <strong>selectively and discreetly</strong> to clients in our network who match the profile.</li>
               <li>When <strong>a transaction closes</strong>, our success fee applies.</li>
