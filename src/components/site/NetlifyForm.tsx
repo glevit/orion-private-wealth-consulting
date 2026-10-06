@@ -14,7 +14,7 @@ function buildHtml(name: string, fields: NfField[], submit: string, note: string
   const rows = fields
     .map((f) => {
       const id = `${name}-${f.name}`;
-      const label = `<label for="${id}">${esc(f.label)}${f.required ? " *" : ""}</label>`;
+      const label = `<label for="${id}">${esc(f.label)}${f.required ? ' <span class="req" aria-hidden="true">*</span>' : ""}</label>`;
       const req = f.required ? " required" : "";
       if (f.type === "select")
         return `<div class="field">${label}<select id="${id}" name="${f.name}">${(f.options ?? []).map((o) => `<option>${esc(o)}</option>`).join("")}</select></div>`;

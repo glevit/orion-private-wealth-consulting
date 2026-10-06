@@ -19,14 +19,14 @@ function Partners() {
               <p className="section-eyebrow">Introduce Clients</p>
               <h3>Referral Partner</h3>
               <p className="editorial-copy">Private bankers, lawyers, tax and golden-visa advisors: if you know someone seeking a luxury property, automobile, or timepiece off-market, introduce them with discretion. We handle the rest.</p>
-              <ul className="check-list">{["No cost or commission on your side", "Your client relationship stays protected and discreet", "Compensation only on completed deals", "No exclusivity commitment required"].map((l) => <li key={l}>{l}</li>)}</ul>
+              <ul className="check-list ticks">{["No cost or commission on your side", "Your client relationship stays protected and discreet", "Compensation only on completed deals", "No exclusivity commitment required"].map((l) => <li key={l}>{l}</li>)}</ul>
               <Link to="/partners-referral" className="text-link">Become a Referral Partner <ArrowRight size={16} /></Link>
             </article>
             <article className="partner-card">
               <p className="section-eyebrow">Supply Assets</p>
               <h3>Asset Partner</h3>
               <p className="editorial-copy">Real estate developers, dealers, and dealers in fine watches: we place your inventory in front of our UHNW client network on a success-fee basis.</p>
-              <ul className="check-list">{["Pure success-fee — zero listing costs", "Direct access to our UHNW client network", "No exclusivity required", "Paid within 10 working days of closing"].map((l) => <li key={l}>{l}</li>)}</ul>
+              <ul className="check-list ticks">{["Pure success-fee — zero listing costs", "Direct access to our UHNW client network", "No exclusivity required", "Paid within 10 working days of closing"].map((l) => <li key={l}>{l}</li>)}</ul>
               <Link to="/partners-asset" className="text-link">Become an Asset Partner <ArrowRight size={16} /></Link>
             </article>
           </div>
