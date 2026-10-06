@@ -2,7 +2,6 @@ import { Link, useRouterState } from "@tanstack/react-router";
 import { ArrowUpRight, ChevronDown, Menu, X } from "lucide-react";
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/orion-logo.png.asset.json";
 import { contact, languages, localizedUrl, navLinks } from "@/content/site";
 import { WhatsAppIcon } from "./WhatsAppIcon";
 import { openCookieSettings } from "./CookieConsent";
@@ -25,7 +24,7 @@ function Header() {
   return (
     <header className="site-header">
       <Link to="/" className="brand" aria-label="Orion Private Wealth home">
-        <img src={logo.url} alt="Orion Private Wealth Consulting" width={1920} height={480} />
+        <img src="/images/logo-lockup.png" alt="Orion Private Wealth Consulting" width={1920} height={480} />
       </Link>
       <nav className="desktop-nav" aria-label="Main navigation">
         {navLinks.map((l) => (
