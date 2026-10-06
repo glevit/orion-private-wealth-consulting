@@ -1,10 +1,11 @@
 # Build: the site is prerendered to static HTML (TanStack Start), published from .output/public.
 [build]
-  command = "npm install --no-audit --no-fund && npm run build"
+  command = "npm run build"
   publish = ".output/public"
 
 [build.environment]
   NODE_VERSION = "22"
+  NPM_FLAGS = "--legacy-peer-deps"
 
 # Redirect .html URLs to their clean canonical equivalents (301, permanent).
 # Consolidates link equity onto the URL declared in <link rel="canonical">
