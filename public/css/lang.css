@@ -64,7 +64,7 @@ section { padding: 64px 0; }
 .lang-current:hover { color: var(--gold); border: 0; }
 .lang-current .lang-caret { font-size: 11px; opacity: .7; }
 .lang-flag { display: inline-block; width: 20px; height: 14px; border-radius: 2px; object-fit: cover; flex-shrink: 0; box-shadow: 0 0 0 1px color-mix(in oklab, var(--paper) 18%, transparent); }
-.lang-dropdown { display: none; position: absolute; top: calc(100% + 12px); inset-inline-end: 0; width: 224px; max-height: 70vh; overflow: auto; background: var(--graphite); border: 1px solid var(--line); border-radius: 6px; padding: 8px; margin: 0; list-style: none; box-shadow: var(--floating-shadow); z-index: 200; }
+.lang-dropdown { display: none; position: absolute; top: calc(100% + 12px); inset-inline-end: 0; width: 224px; max-height: 80vh; overflow: auto; background: var(--graphite); border: 1px solid var(--line); border-radius: 6px; padding: 8px; margin: 0; list-style: none; box-shadow: var(--floating-shadow); z-index: 200; }
 .lang-dropdown.open { display: block; }
 .lang-dropdown li { border: 0 !important; }
 .lang-dropdown a { display: flex; align-items: center; gap: 12px; padding: 8px 12px; font-size: 14px; letter-spacing: 0; text-transform: none; color: var(--paper); border-radius: 4px; opacity: 1; }
