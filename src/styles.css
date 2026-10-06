@@ -206,3 +206,9 @@ h1,h2,h3 {font-family:var(--font-serif); font-weight:400;}
 }
 @media(max-width:380px){.opening h1 {font-size:40px;} .site-header {padding:10px 12px;} .brand img {width:160px; height:40px;} .header-actions {gap:2px;} }
 @media(prefers-reduced-motion:reduce){html {scroll-behavior:auto;} *{transition:none!important;}}
+
+.founder-gallery {padding-top:0;}
+.gallery-row {display:grid; grid-template-columns:minmax(0,1.67fr) minmax(0,1fr); gap:16px; align-items:start;}
+.gallery-row figure {margin:0;}
+.gallery-row img {display:block; width:100%; height:auto;}
+@media(max-width:767px){.gallery-row {grid-template-columns:minmax(0,1fr);}}

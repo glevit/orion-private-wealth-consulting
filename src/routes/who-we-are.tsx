@@ -24,6 +24,12 @@ function WhoWeAre() {
           <p className="editorial-copy">Like the constellation that has guided navigators for millennia, Orion exists to orient our clients toward their most ambitious goals. Every engagement begins with listening. Every solution is bespoke. Every result is achieved with integrity.</p>
         </div>
       </section>
+      <section className="section-space founder-gallery">
+        <div className="content-width gallery-row">
+          <figure><img src="/images/founder-cern.jpg" alt="Giacomo Levita, Founder of Orion Private Wealth Consulting" width={1800} height={810} loading="lazy" /></figure>
+          <figure><img src="/images/founder-greenhouse.jpg" alt="Giacomo Levita, Founder of Orion Private Wealth Consulting" width={1300} height={977} loading="lazy" /></figure>
+        </div>
+      </section>
       <section className="section-space alt-section">
         <div className="content-width">
           <p className="section-eyebrow">Our Values</p>
