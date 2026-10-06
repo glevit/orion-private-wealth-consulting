@@ -328,3 +328,8 @@ html[dir="rtl"] body { text-align: start; }
 .section-head .btn { margin-top: 8px; }
 @media (max-width: 767px) { .whatsapp-float { bottom: 16px; inset-inline-end: 12px; gap: 8px; } .whatsapp-float-link { padding: 9px 13px; font-size: 13px; } .whatsapp-float-icon { width: 18px; height: 18px; } }
 h2[style*="text-align:center"] { text-align: start !important; }
+
+/* Image sizing fixes: let aspect-ratio drive height despite width/height attributes */
+.estate-image, .acquisition img, .market-card img { height: auto; }
+.service-photo { display: block; width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; margin: 0 0 1.6em; }
+.network-photo { display: block; width: 100%; max-width: 780px; height: auto; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; margin: 2em auto 0; }
