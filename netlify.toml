@@ -6,6 +6,7 @@
 [build.environment]
   NODE_VERSION = "22"
   NPM_FLAGS = "--legacy-peer-deps"
+  NITRO_PRESET = "cloudflare-module"
 
 # Redirect .html URLs to their clean canonical equivalents (301, permanent).
 # Consolidates link equity onto the URL declared in <link rel="canonical">
