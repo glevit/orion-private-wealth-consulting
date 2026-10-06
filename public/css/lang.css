@@ -64,7 +64,7 @@ section { padding: 64px 0; }
 .lang-current:hover { color: var(--gold); border: 0; }
 .lang-current .lang-caret { font-size: 11px; opacity: .7; }
 .lang-flag { display: inline-block; width: 20px; height: 14px; border-radius: 2px; object-fit: cover; flex-shrink: 0; box-shadow: 0 0 0 1px color-mix(in oklab, var(--paper) 18%, transparent); }
-.lang-dropdown { display: none; position: absolute; top: calc(100% + 12px); inset-inline-end: 0; width: 224px; max-height: 70vh; overflow: auto; background: var(--graphite); border: 1px solid var(--line); border-radius: 6px; padding: 8px; margin: 0; list-style: none; box-shadow: var(--floating-shadow); z-index: 200; }
+.lang-dropdown { display: none; position: absolute; top: calc(100% + 12px); inset-inline-end: 0; width: 224px; max-height: 80vh; overflow: auto; background: var(--graphite); border: 1px solid var(--line); border-radius: 6px; padding: 8px; margin: 0; list-style: none; box-shadow: var(--floating-shadow); z-index: 200; }
 .lang-dropdown.open { display: block; }
 .lang-dropdown li { border: 0 !important; }
 .lang-dropdown a { display: flex; align-items: center; gap: 12px; padding: 8px 12px; font-size: 14px; letter-spacing: 0; text-transform: none; color: var(--paper); border-radius: 4px; opacity: 1; }
@@ -328,3 +328,8 @@ html[dir="rtl"] body { text-align: start; }
 .section-head .btn { margin-top: 8px; }
 @media (max-width: 767px) { .whatsapp-float { bottom: 16px; inset-inline-end: 12px; gap: 8px; } .whatsapp-float-link { padding: 9px 13px; font-size: 13px; } .whatsapp-float-icon { width: 18px; height: 18px; } }
 h2[style*="text-align:center"] { text-align: start !important; }
+
+/* Image sizing fixes: let aspect-ratio drive height despite width/height attributes */
+.estate-image, .acquisition img, .market-card img { height: auto; }
+.service-photo { display: block; width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; margin: 0 0 1.6em; }
+.network-photo { display: block; width: 100%; max-width: 780px; height: auto; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; margin: 2em auto 0; }
