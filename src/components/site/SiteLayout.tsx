@@ -95,7 +95,7 @@ function Footer() {
       </div>
       <div className="footer-bottom">
         <span>© 2026 Orion Private Wealth Consulting LLC. All Rights Reserved.</span>
-        <span><Link to="/privacy">Privacy Policy</Link> · <Link to="/terms">Terms of Service</Link> · <button type="button" className="footer-cookie" onClick={openCookieSettings}>Cookie settings</button></span>
+        <span><Link to="/privacy">Privacy Policy</Link> · <Link to="/terms">Terms of Service</Link> · <a href="https://client.orionprivatewealthconsulting.com" rel="nofollow noopener" className="footer-client">Client Access</a> · <button type="button" className="footer-cookie" onClick={openCookieSettings}>Cookie settings</button></span>
       </div>
     </footer>
   );
