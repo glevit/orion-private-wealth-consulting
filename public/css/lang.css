@@ -333,3 +333,8 @@ h2[style*="text-align:center"] { text-align: start !important; }
 .estate-image, .acquisition img, .market-card img { height: auto; }
 .service-photo { display: block; width: 100%; height: auto; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; margin: 0 0 1.6em; }
 .network-photo { display: block; width: 100%; max-width: 780px; height: auto; aspect-ratio: 4/3; object-fit: cover; border-radius: 8px; margin: 2em auto 0; }
+
+/* Client Area link in the main menu */
+.nav-links > li.nav-client > a { color: var(--gold); }
+.nav-links > li.nav-client > a:hover { color: var(--gold-2, var(--gold)); }
+@media (min-width: 1181px) and (max-width: 1279px) { .nav-links > li.nav-client > a { font-size: 11.5px; } }
