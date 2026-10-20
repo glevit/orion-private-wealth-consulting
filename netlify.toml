@@ -19,6 +19,108 @@
   to = "/:splat"
   status = 301
   force = true
+
+# English pages are prerendered as <route>/index.html, so Netlify would 301
+# /<route> to /<route>/ while <link rel="canonical"> and sitemap.xml declare
+# /<route> (no slash). These forced 200 rewrites serve the canonical URL
+# directly, with no redirect hop. Localized pages (/es/..., etc.) are flat
+# .html files and are unaffected.
+[[redirects]]
+  from = "/services"
+  to = "/services/index.html"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/markets"
+  to = "/markets/index.html"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/who-we-are"
+  to = "/who-we-are/index.html"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/how-it-works"
+  to = "/how-it-works/index.html"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/partners"
+  to = "/partners/index.html"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/partners-asset"
+  to = "/partners-asset/index.html"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/partners-referral"
+  to = "/partners-referral/index.html"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/faq"
+  to = "/faq/index.html"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/blog"
+  to = "/blog/index.html"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/contact"
+  to = "/contact/index.html"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/privacy"
+  to = "/privacy/index.html"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/terms"
+  to = "/terms/index.html"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/blog-dubai-real-estate-guide"
+  to = "/blog-dubai-real-estate-guide/index.html"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/blog-collector-automobiles-guide"
+  to = "/blog-collector-automobiles-guide/index.html"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/blog-luxury-timepieces-guide"
+  to = "/blog-luxury-timepieces-guide/index.html"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/blog-switzerland-riviera-tax"
+  to = "/blog-switzerland-riviera-tax/index.html"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/blog-dubai-off-plan"
+  to = "/blog-dubai-off-plan/index.html"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/blog-success-fee-model"
+  to = "/blog-success-fee-model/index.html"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/blog-timepieces-asset-class"
+  to = "/blog-timepieces-asset-class/index.html"
+  status = 200
+  force = true
+
 [[edge_functions]]
   path = "/*"
   function = "geo-block"
