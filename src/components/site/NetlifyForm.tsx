@@ -43,11 +43,28 @@ export function NetlifyForm({ name, fields, submit, note, error = "There was a p
   name: string; fields: NfField[]; submit: string; note?: string; error?: string;
 }) {
   useEffect(() => {
-    if (document.querySelector('script[data-orion-form]')) return;
-    const s = document.createElement("script");
-    s.src = "/js/contact-form.js";
-    s.dataset.orionForm = "1";
-    document.body.appendChild(s);
+    if (!document.querySelector('script[data-orion-form]')) {
+      const s = document.createElement("script");
+      s.src = "/js/contact-form.js";
+      s.dataset.orionForm = "1";
+      document.body.appendChild(s);
+    }
+    // Netlify adds the reCAPTCHA markup to the prerendered HTML at deploy time. A form built in the
+    // browser (client-side navigation from another page) has none, so the visitor would see no
+    // captcha at all. Load the page once from the server to get the complete form.
+    try {
+      const wrap = document.querySelector(".g-recaptcha-wrap");
+      if (wrap && !wrap.firstElementChild) {
+        const key = "orion-nf-reload";
+        const last = Number(sessionStorage.getItem(key) || 0);
+        if (Date.now() - last > 60_000) {
+          sessionStorage.setItem(key, String(Date.now()));
+          window.location.reload();
+        }
+      }
+    } catch {
+      /* storage unavailable: the handler still blocks sending without a captcha */
+    }
   }, []);
   return <div suppressHydrationWarning dangerouslySetInnerHTML={{ __html: buildHtml(name, fields, submit, note, error) }} />;
 }
