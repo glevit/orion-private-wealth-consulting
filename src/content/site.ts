@@ -24,17 +24,25 @@ export const languages = [
   ["he", "עברית", "il"], ["es", "Español", "es"], ["pt", "Português", "pt"], ["ko", "한국어", "kr"], ["ja", "日本語", "jp"], ["it", "Italiano", "it"],
 ] as const;
 // The 12 translated sites live on the same domain (/ru/, /de/ ...). /markets/dubai has no translation.
+// Articles that exist only in some languages: other language links fall back to that language's blog index.
+export const partialLangs: Record<string, string[]> = {
+  "/blog-ultra-luxury-dubai-real-estate": ["en", "de", "fr", "pt", "ko", "it"],
+  "/blog-dubai-penthouse-villa-buying-process": ["en", "de", "fr", "pt", "ko", "it"],
+  "/blog-dubai-luxury-real-estate-investment": ["en", "de", "fr", "pt", "ko", "it"],
+};
 export function localizedUrl(code: string, pathname: string) {
   const path = pathname === "/" ? "/" : pathname.replace(/\/$/, "");
+  const partial = partialLangs[path];
+  if (partial && code !== "en" && !partial.includes(code)) return `/${code}/blog`;
   const safe = path.startsWith("/markets/") ? "/markets" : path;
   return `/${code}${safe === "/" ? "/" : safe}`;
 }
-export function seo(title: string, description: string, path?: string) {
+export function seo(title: string, description: string, path?: string, onlyLangs?: string[]) {
   const canonical = path === undefined ? [] : [{ rel: "canonical", href: `${originalSite}${path === "/" ? "/" : path}` }];
   const alternates =
     path === undefined || path.startsWith("/markets/")
       ? []
-      : languages.map(([code]) => ({
+      : languages.filter(([code]) => !onlyLangs || onlyLangs.includes(code)).map(([code]) => ({
           rel: "alternate",
           hrefLang: code,
           href: code === "en" ? `${originalSite}${path}` : `${originalSite}/${code}${path === "/" ? "/" : path}`,

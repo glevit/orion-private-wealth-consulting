@@ -106,6 +106,24 @@
   status = 200
   force = true
 [[redirects]]
+  from = "/blog-ultra-luxury-dubai-real-estate"
+  to = "/blog-ultra-luxury-dubai-real-estate/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/blog-dubai-penthouse-villa-buying-process"
+  to = "/blog-dubai-penthouse-villa-buying-process/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/blog-dubai-luxury-real-estate-investment"
+  to = "/blog-dubai-luxury-real-estate-investment/index.html"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/blog-dubai-off-plan"
   to = "/blog-dubai-off-plan/index.html"
   status = 200

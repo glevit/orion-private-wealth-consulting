@@ -2,6 +2,246 @@
 export type Block = ["h2" | "h3" | "p", string];
 export const articles: { slug: string; title: string; excerpt: string; date: string; body: Block[] }[] = [
  {
+  "slug": "blog-ultra-luxury-dubai-real-estate",
+  "title": "Ultra-Luxury Real Estate in Dubai: What Really Defines the Segment",
+  "excerpt": "Locations, property types, privacy and service: what discerning buyers should look for in Dubai's ultra-luxury segment.",
+  "date": "20 October 2026",
+  "body": [
+   [
+    "p",
+    "\"Luxury\" is a very broad term in Dubai. At the top of the market it is less about square metres and more about location, privacy, build quality and whether a property is publicly offered at all. This article describes how the ultra-luxury segment can be recognised and what international buyers from North America and Europe should look for."
+   ],
+   [
+    "h2",
+    "Location: where the segment is concentrated"
+   ],
+   [
+    "p",
+    "Foreign buyers acquire residential property in Dubai in the freehold zones designated by the emirate. At the top of the market these include addresses such as Palm Jumeirah, Downtown Dubai or Dubai Hills Estate. Each location has its own profile: waterfront and beach, quiet villa districts, urban skyline residences or extensive residential communities. Which areas are open to foreigners is determined by the emirate; this designation can change and should be checked before any decision."
+   ],
+   [
+    "h2",
+    "Property types in the top segment"
+   ],
+   [
+    "p",
+    "Typical are penthouses with panoramic views, villas with private water access, estates on large plots and residences with hotel or branded services. What matters is less the category than the uniqueness of the specific unit: view, layout, plot size, orientation and the quality of the finishes cannot be reproduced at will."
+   ],
+   [
+    "h2",
+    "Privacy and service"
+   ],
+   [
+    "p",
+    "For many buyers in the ultra-luxury segment, discretion and security matter as much as the property itself: controlled access, concierge services, places of retreat and an environment that suits your lifestyle. Ask early about the ongoing services of the development and the costs that come with them."
+   ],
+   [
+    "h2",
+    "Quality markers beyond the brochure"
+   ],
+   [
+    "p",
+    "Glossy material and renderings say little about actual quality. More telling are the developer's reputation and track record, the stage of completion, the payment structure and the protection of payments made. These points cannot be judged from a distance or on the basis of promotional material alone."
+   ],
+   [
+    "h2",
+    "Properties that are not publicly offered"
+   ],
+   [
+    "p",
+    "Some of the most interesting units are presented only to selected prospects before they are marketed widely. A private intermediary can create access here and obtain advance information. It does not replace your own review or that of your advisers."
+   ],
+   [
+    "h2",
+    "What you should not rely on"
+   ],
+   [
+    "p",
+    "Be wary of promises of \"exclusivity\" or \"guaranteed appreciation\" without a verifiable basis. Ask instead for traceable documents: sales materials, market data and the developer's sales history, as well as the documents proving title."
+   ],
+   [
+    "h2",
+    "Personal consultation — free and without obligation"
+   ],
+   [
+    "p",
+    "On request we arrange a conversation with a contact from our network — in your language or another language of your choice. The conversation can take place in person at a location we agree on together, or by video conference."
+   ],
+   [
+    "p",
+    "Where provided by the respective developer, we present videos and sales materials with market data and sales history. The consultation is free of charge and commits you to nothing: Orion is paid exclusively by the seller and only upon successful completion."
+   ],
+   [
+    "p",
+    "This article is for general informational purposes and does not constitute investment, tax, legal or immigration advice. Regulations, areas open to foreign buyers and market conditions can change. Market data and sales materials come from the respective developer and should be independently verified before any decision. Seek independent legal and tax advice before any significant purchase."
+   ]
+  ]
+ },
+ {
+  "slug": "blog-dubai-penthouse-villa-buying-process",
+  "title": "Buying a Penthouse or Villa in Dubai: The Process for International Buyers",
+  "excerpt": "From your brief to handover: how buying a penthouse or villa in Dubai works, including from abroad.",
+  "date": "20 October 2026",
+  "body": [
+   [
+    "p",
+    "Buying a penthouse or villa in Dubai follows a clear sequence. Knowing it lets you make decisions in the right order and avoid surprises shortly before signing. This article describes the main steps from the point of view of an international buyer."
+   ],
+   [
+    "h2",
+    "1. Your brief and budget"
+   ],
+   [
+    "p",
+    "It starts with a conversation about what you have in mind: use (personal residence, second home or investment), location, property type, timeline and budget. Plan for transaction and running costs as well as the purchase price; we go through the details with you."
+   ],
+   [
+    "h2",
+    "2. Selection and pre-screening"
+   ],
+   [
+    "p",
+    "On that basis a limited selection of suitable properties is put together. Every recommendation is preceded by a pre-screening: who is the developer, what is the status of the project, what does the payment structure look like and is the property open to buyers from abroad?"
+   ],
+   [
+    "h2",
+    "3. Viewing: on site, in person elsewhere, or by video"
+   ],
+   [
+    "p",
+    "A viewing does not have to mean a trip to Dubai. On request we arrange a conversation with a contact in your language or another language of your choice, in person at an agreed location or by video conference. Developer videos and sales materials with market data and sales history can be presented."
+   ],
+   [
+    "h2",
+    "4. Reservation and sales contract"
+   ],
+   [
+    "p",
+    "Once a unit has emerged, a reservation and the sales contract usually follow. Have the documents reviewed by an independent lawyer before signing, and pay attention to payment terms, deadlines and the handover provisions."
+   ],
+   [
+    "h2",
+    "5. Payment, registration and handover"
+   ],
+   [
+    "p",
+    "Payment follows the structure agreed in the contract; the transfer of ownership is registered with the Dubai Land Department. Check how payments made are protected before you commit capital. Handover includes inspecting the unit and clarifying the ongoing services of the development."
+   ],
+   [
+    "h2",
+    "6. After the purchase"
+   ],
+   [
+    "p",
+    "Depending on use, questions follow about management, letting and the tax treatment in your home country. Clarify these points with your tax adviser before buying."
+   ],
+   [
+    "h2",
+    "The role of a private intermediary"
+   ],
+   [
+    "p",
+    "Orion presents buyers with vetted properties and accompanies you through to completion. We are paid exclusively by the seller and only upon successful completion; nothing is added to your price. That aligns our interests with yours from the first conversation."
+   ],
+   [
+    "h2",
+    "Personal consultation — free and without obligation"
+   ],
+   [
+    "p",
+    "On request we arrange a conversation with a contact from our network — in your language or another language of your choice. The conversation can take place in person at a location we agree on together, or by video conference."
+   ],
+   [
+    "p",
+    "Where provided by the respective developer, we present videos and sales materials with market data and sales history. The consultation is free of charge and commits you to nothing: Orion is paid exclusively by the seller and only upon successful completion."
+   ],
+   [
+    "p",
+    "This article is for general informational purposes and does not constitute investment, tax, legal or immigration advice. Regulations, areas open to foreign buyers and market conditions can change. Market data and sales materials come from the respective developer and should be independently verified before any decision. Seek independent legal and tax advice before any significant purchase."
+   ]
+  ]
+ },
+ {
+  "slug": "blog-dubai-luxury-real-estate-investment",
+  "title": "Dubai Luxury Real Estate as an Investment: Opportunities and Risks",
+  "excerpt": "What speaks for and against investing in Dubai's luxury segment, which risks exist and how to protect your decisions.",
+  "date": "20 October 2026",
+  "body": [
+   [
+    "p",
+    "Dubai is regarded as one of the most sought-after markets in the world for high-end residential property. That does not make an investment safe by default. This article describes soberly what speaks in its favour, which risks exist and how to put your decision on a solid footing."
+   ],
+   [
+    "h2",
+    "Why investors look at Dubai"
+   ],
+   [
+    "p",
+    "Dubai combines an international buyer base, a regulatory framework geared to foreign home ownership and a broad supply in the premium segment. The tax environment in the Emirates is also an argument for many buyers. What remains decisive, however, is your personal situation in your country of residence; have it reviewed by a tax adviser before buying."
+   ],
+   [
+    "h2",
+    "Possible opportunities"
+   ],
+   [
+    "p",
+    "Real estate is a tangible asset and can diversify a portfolio. Depending on the property, personal use or letting come into consideration. Capital appreciation or particular returns are not promised by this; they depend on location, property, timing and market conditions."
+   ],
+   [
+    "h2",
+    "Risks you should know about"
+   ],
+   [
+    "p",
+    "Market cycle and supply: property markets fluctuate. New projects and completions can change the supply."
+   ],
+   [
+    "p",
+    "Liquidity: selling a high-priced unit can take time and depends on whether a suitable buyer is available when you want to sell."
+   ],
+   [
+    "p",
+    "Currency: the dirham is pegged to the US dollar. Investors whose home currency is not the dollar therefore face exchange-rate risk."
+   ],
+   [
+    "p",
+    "Transaction and running costs: in addition to the purchase price there are fees and ongoing costs that affect your return. Discuss them in detail before buying."
+   ],
+   [
+    "p",
+    "Developer and completion risk: for projects that are not yet finished, a great deal depends on the developer's track record and on the protection of your payments."
+   ],
+   [
+    "p",
+    "Regulation: rules on ownership, visas and area designations can change."
+   ],
+   [
+    "h2",
+    "How to protect your decision"
+   ],
+   [
+    "p",
+    "Do not rely on individual statements. Ask for the developer's sales materials with market data and sales history, compare these figures with independent sources and take legal and tax advice. A private intermediary can provide access to documents and contacts; the assessment remains your decision."
+   ],
+   [
+    "h2",
+    "Personal consultation — free and without obligation"
+   ],
+   [
+    "p",
+    "On request we arrange a conversation with a contact from our network — in your language or another language of your choice. The conversation can take place in person at a location we agree on together, or by video conference."
+   ],
+   [
+    "p",
+    "Where provided by the respective developer, we present videos and sales materials with market data and sales history. The consultation is free of charge and commits you to nothing: Orion is paid exclusively by the seller and only upon successful completion."
+   ],
+   [
+    "p",
+    "This article is for general informational purposes and does not constitute investment, tax, legal or immigration advice. Regulations, areas open to foreign buyers and market conditions can change. Market data and sales materials come from the respective developer and should be independently verified before any decision. Seek independent legal and tax advice before any significant purchase."
+   ]
+  ]
+ },
+ {
   "slug": "blog-dubai-real-estate-guide",
   "title": "Buying Luxury Real Estate in Dubai: A Guide for International Investors",
   "excerpt": "Freehold areas, the Golden Visa, real costs beyond the listed price, and why remote due diligence is the real risk for international buyers.",
