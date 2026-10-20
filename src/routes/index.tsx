@@ -9,8 +9,21 @@ import estate from "@/assets/orion-estate.jpg";
 import car from "@/assets/orion-car.jpg";
 import watch from "@/assets/orion-watch.jpg";
 
+const orgSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Orion Private Wealth Consulting LLC",
+  url: "https://orionprivatewealthconsulting.com",
+  logo: "https://orionprivatewealthconsulting.com/images/logo-lockup.png",
+  areaServed: ["United Arab Emirates", "Switzerland", "France", "United States"],
+  sameAs: [],
+};
+
 export const Route = createFileRoute("/")({
-  head: () => seo("Orion Private Wealth Consulting — Success-Fee Luxury Access", "Prime real estate in Dubai, St. Moritz and the Côte d’Azur. Rare automobiles and timepieces for select clients. Paid by the seller, only when the transaction completes.", "/"),
+  head: () => ({
+    ...seo("Orion Private Wealth Consulting | Dubai, St. Moritz, Riviera", "Prime real estate in Dubai, St. Moritz and the Côte d’Azur. Rare automobiles and timepieces for select clients. Paid by the seller, only when the transaction completes.", "/"),
+    scripts: [{ type: "application/ld+json", children: JSON.stringify(orgSchema) }],
+  }),
   component: Index,
 });
 
