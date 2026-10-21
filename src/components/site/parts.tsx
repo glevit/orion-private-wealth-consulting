@@ -23,7 +23,7 @@ export function CtaBand({ title = "Speak with us before you search.", text = "A 
     <section className="cta-band">
       <h2>{title}</h2>
       <p>{text}</p>
-      <Button variant="editorial" asChild><Link to="/contact">Request information <ArrowUpRight aria-hidden="true" /></Link></Button>
+      <Button variant="editorial" asChild><Link to="/contact">Request free information <ArrowUpRight aria-hidden="true" /></Link></Button>
     </section>
   );
 }

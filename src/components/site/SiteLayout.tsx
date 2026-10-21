@@ -33,7 +33,7 @@ function Header() {
       </nav>
       <div className="header-actions">
         <Button variant="navigation" asChild className="client-area-link"><a href="https://client.orionprivatewealthconsulting.com" rel="nofollow noopener">Client Area</a></Button>
-        <Button variant="consultation" asChild><Link to="/contact">Request information <ArrowUpRight aria-hidden="true" /></Link></Button>
+        <Button variant="consultation" asChild><Link to="/contact">Request free information <ArrowUpRight aria-hidden="true" /></Link></Button>
         <div className="language-control" ref={languageRef}>
           <Button variant="navigation" className="language-toggle" aria-label="Choose language" aria-expanded={languageOpen} aria-controls="language-menu" onClick={() => { setLanguageOpen(!languageOpen); setMenuOpen(false); }}>
             <img className="flag" src="/flags/gb.svg" alt="" width={20} height={14} /> EN <ChevronDown aria-hidden="true" />
@@ -59,7 +59,7 @@ function Header() {
         <nav id="mobile-navigation" className="mobile-nav" aria-label="Mobile navigation">
           {navLinks.map((l) => (<Button key={l.label} variant="navigation" asChild><Link to={l.to}>{l.label}</Link></Button>))}
           <Button variant="navigation" asChild><a href="https://client.orionprivatewealthconsulting.com" rel="nofollow noopener">Client Area</a></Button>
-          <Button variant="editorial" asChild className="mt-3"><Link to="/contact">Request information</Link></Button>
+          <Button variant="editorial" asChild className="mt-3"><Link to="/contact">Request free information</Link></Button>
         </nav>
       )}
     </header>
