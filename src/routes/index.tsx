@@ -42,7 +42,7 @@ function Index() {
         <div className="opening-content">
           <h1 id="opening-title">Private access. Negotiated on your side.</h1>
           <p>Prime real estate in Dubai, St. Moritz and the Côte d’Azur. Rare automobiles and timepieces for select clients.</p>
-          <div style={{ marginTop: 28 }}><Button variant="editorial" asChild><Link to="/contact">Request a private consultation <ArrowUpRight aria-hidden="true" /></Link></Button></div>
+          <div style={{ marginTop: 28 }}><Button variant="editorial" asChild><Link to="/contact">Request free information <ArrowUpRight aria-hidden="true" /></Link></Button></div>
         </div>
       </section>
 

@@ -52,7 +52,7 @@ function Dubai() {
         <div className="content-width" style={{ maxWidth: 760 }}>
           <p className="section-eyebrow">Begin a Conversation</p>
           <h2 className="section-heading">Tell us what you are looking for in Dubai.</h2>
-          <NetlifyForm name="dubai-landing-en" submit="Send" note="All inquiries are treated with absolute discretion. Your information will never be shared with third parties."
+          <NetlifyForm name="dubai-landing-en" submit="Request free information" note="All inquiries are treated with absolute discretion. Your information will never be shared with third parties."
             fields={[{ name: "name", label: "Name", required: true }, { name: "email", label: "Email Address", type: "email", required: true }, { name: "message", label: "What are you looking for?", type: "textarea", required: true }]} />
         </div>
       </section>

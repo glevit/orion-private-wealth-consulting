@@ -16,7 +16,7 @@ function Contact() {
         <div className="content-width split top">
           <div>
             <h2 style={{ fontSize: 34, marginBottom: 24 }}>Private inquiry</h2>
-            <NetlifyForm name="orion-inquiry-en" submit="Submit Private Inquiry"
+            <NetlifyForm name="orion-inquiry-en" submit="Request free information"
               note="All inquiries are treated with absolute discretion. Your information will never be shared with third parties. Giacomo replies to every inquiry personally, within 24 hours, in English or in your language."
               fields={[
                 { name: "name", label: "Full Name", required: true }, { name: "country", label: "Country of Residence", required: true },
