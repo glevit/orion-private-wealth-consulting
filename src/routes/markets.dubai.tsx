@@ -19,14 +19,14 @@ function Dubai() {
   return (
     <>
       <PageHero eyebrow="Dubai & the UAE" title="Private access, aligned interests" image="/images/dubai-01-burj-al-arab.jpg"
-        lead="Orion introduces select clients to Dubai’s finest residences and investment properties — many before they ever reach the open market. We succeed only when you do.">
+        lead="Exclusive Dubai luxury real estate and developer portfolios, introduced off-market, before they reach the open market. We succeed only when you do.">
         <p className="breadcrumb" style={{ marginTop: 24, marginBottom: 0 }}><Link to="/markets">← All markets</Link></p>
       </PageHero>
       <section className="section-space">
         <div className="content-width" style={{ maxWidth: 760 }}>
           <p className="section-eyebrow">Dubai &amp; UAE</p>
           <h2 className="section-heading">Why Clients Choose Orion in Dubai</h2>
-          <p className="editorial-copy">Dubai has redefined what is possible in luxury real estate — zero property tax, world-class infrastructure, and a market that continues to attract the world’s most discerning investors. But the properties worth having are rarely the ones publicly listed.</p>
+          <p className="editorial-copy">Dubai has redefined what is possible in luxury real estate — zero property tax, world-class infrastructure, and a market that continues to attract the world’s most discerning investors. But the exclusive properties and developer portfolios worth having are rarely the ones publicly listed.</p>
           <p className="editorial-copy" style={{ marginTop: 16 }}>Through Orion’s established relationships across Dubai’s leading developers, clients gain access to opportunities before they are marketed — introduced quietly, negotiated carefully, and arranged with full alignment between Orion’s interests and their own.</p>
         </div>
       </section>
