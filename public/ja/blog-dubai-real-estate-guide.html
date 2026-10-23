@@ -16,6 +16,14 @@ try {
 } catch(e){}
 gtag('js', new Date());
 gtag('config', 'G-S1Q6BFKL8L');
+gtag('config', 'AW-18438942771');
+// Google Ads: conversione "Invio modulo per i lead" solo sulle pagine di ringraziamento (una volta per sessione)
+try {
+  if (/\/thank-you\/?(\.html)?$/.test(location.pathname) && !sessionStorage.getItem('orion_ads_conv')) {
+    sessionStorage.setItem('orion_ads_conv', '1');
+    gtag('event', 'conversion', {'send_to': 'AW-18438942771/C-hFCLu2w_EcELPgr9hE', 'value': 1.0, 'currency': 'EUR'});
+  }
+} catch(e){}
   window.addEventListener('load', function(){
     var s=document.createElement('script');s.async=true;
     s.src='https://www.googletagmanager.com/gtag/js?id=G-S1Q6BFKL8L';
